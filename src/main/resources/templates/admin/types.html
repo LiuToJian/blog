@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="admin/admin_fragments::head(~{::title})">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <title>分类管理</title>
+    <style>
+        body {
+            background: url("../../static/imgs/bg.jpg");
+        }
+
+        .m-container-small {
+            max-width: 60em !important;
+            margin: auto !important;
+        }
+
+        .m-mobile-show {
+            display: none !important;
+        }
+
+        @media screen and(max-width: 768px) {
+            .m-mobile-hide {
+                display: none !important;
+            }
+
+            .m-mobile-show {
+                display: block !important;
+            }
+
+            .m-moble-wide {
+                width: 100% !important;
+            }
+        }
+
+        .m-opacity-tiny {
+            opacity: 0.7 !important;
+        }
+    </style>
+</head>
+<body>
+<!--导航条-->
+<nav  th:replace="admin/admin_fragments::menu(2)" class="ui inverted segment attached m-padded-tb-mini">
+</nav>
+<div class="ui attached pointing menu">
+    <div class="ui container">
+        <div class="right menu">
+            <a href="blogs-input.html" th:href="@{/supper/input}" class="item">新增</a>
+            <a th:href="@{/supper/types}" class="active teal item">列表</a>
+        </div>
+    </div>
+</div>
+<!--中间内容-->
+<div style="padding-top: 3em !important;
+    padding-bottom: 3em !important;max-width: 72em !important;margin: auto !important;" class="m-container-small">
+    <div class="ui container">
+
+        <div class="ui success message" th:unless="${#strings.isEmpty(message)}">
+            <i class="close icon"></i>
+            <div class="header">提示</div>
+            <p th:text="${message}">SUCCESS</p>
+        </div>
+
+        <table class="ui celled table">
+            <thead>
+            <tr>
+                <th>#</th>
+                <th>名称</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="type,iterStat:${page.content}">
+                <td th:text="${iterStat.count}">1</td>
+                <td th:text="${type.name}">刻意联系清单</td>
+                <td>
+                    <a th:href="@{/supper/types/{id}/input(id=${type.id})}" class="ui mini teal submit button">编辑</a>
+                    <a th:href="@{/supper/types/{id}/delete(id=${type.id})}" class="ui mini red submit button">删除</a>
+                </td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <th colspan="6">
+                    <div class="ui  pagination menu" th:if="${page.totalPages>1}">
+                        <a th:href="@{/supper/types(page=${page.number}-1)}" class="item" th:unless="${page.first}">上一页</a>
+                        <a th:href="@{/supper/types(page=${page.number}+1)}" class="item" th:unless="${page.last}">下一页</a>
+                    </div>
+                    <div class="ui  pagination menu right floated">
+                        <a href="#" th:href="@{/supper/input}" class="item">新增</a>
+                    </div>
+                </th>
+            </tr>
+            </tfoot>
+        </table>
+    </div>
+</div>
+<!--底部-->
+<footer th:replace="admin/admin_fragments::footer" class="ui inverted segment vertical m-padded-tb-huge">
+</footer>
+</body>
+<th:block th:replace="admin/admin_fragments::script"></th:block>
+<script>
+    $("#toggle").click(function () {
+        console.log("点击了");
+        $(".m-item").toggleClass("m-mobile-hide");
+    });
+
+    $("#pay").popup({
+        popup: $(".payQ.popup"),
+        on: "click",
+        position: "bottom center"
+    });
+    $("#headimg").dropdown({
+        on: "hover"
+    });
+    $(".ui.dropdown").dropdown();
+
+    $(".message .close").on("click",function () {
+        $(this).closest(".message").transition("fade");
+    });
+</script>
+</html>
