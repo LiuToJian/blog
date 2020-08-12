@@ -124,7 +124,7 @@
                     </div>
                     <div class="ui teal segment">
                         <div class="ui fluid vertical menu">
-                            <a href="#" class="item" th:each="type :${types}"><span th:text="${type.name}"></span>
+                            <a href="#" class="item" th:each="type :${types}" th:href="@{/types/{id}(id=${type.id})}"><span th:text="${type.name}"></span>
                                 <div class="ui teal basic left pointing label" th:text="${#arrays.length(type.blogs)}">
                                     13
                                 </div>
@@ -146,7 +146,7 @@
                     </div>
                     <div class="ui teal segment">
                         <a href="#" target="_blank" class="ui teal basic left pointing label"
-                           style="margin-top: 0.4em !important;margin-bottom: 0.4em !important;" th:each="tag : ${tags}"><span th:text="${tag.name}"></span>
+                           style="margin-top: 0.4em !important;margin-bottom: 0.4em !important;" th:each="tag : ${tags}"  th:href="@{/tags/{id}(id=${tag.id})}"><span th:text="${tag.name}"></span>
                             <div class="detail" th:text="${#arrays.length(tag.blogs)}">23</div>
                         </a>
                     </div>

@@ -37,14 +37,21 @@ public class IndexController {
         model.addAttribute("query", query);
         return "search";
     }
+
     @GetMapping("/blog/{id}")
-    public String blog(@PathVariable Integer id,Model model) throws NotFoundException {
-        model.addAttribute("blog",blogService.getAndConvert(id));
+    public String blog(@PathVariable Integer id, Model model) throws NotFoundException {
+        model.addAttribute("blog", blogService.getAndConvert(id));
         return "blog";
     }
-@GetMapping("/footer/newblogs")
-    public String newBlogs(Model model){
-        model.addAttribute("newblogs",blogService.listRecommendBlogTop(3));
+
+    @GetMapping("/footer/newblogs")
+    public String newBlogs(Model model) {
+        model.addAttribute("newblogs", blogService.listRecommendBlogTop(3));
         return "_fragments::newblogList";
+    }
+    @GetMapping("/super/footer/newblogs")
+    public String newSuperBlogs(Model model) {
+        model.addAttribute("newblogs", blogService.listRecommendBlogTop(3));
+        return "admin/admin_fragments::newblogList";
     }
 }

@@ -52,3 +52,1398 @@
 2020-08-12 00:13:17.158  INFO 12128 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
 2020-08-12 00:13:17.428  INFO 12128 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
 2020-08-12 00:13:17.449  INFO 12128 --- [restartedMain] com.blog.BlogApplication                 : Started BlogApplication in 4.185 seconds (JVM running for 6.798)
+2020-08-12 08:56:24.466  INFO 14100 --- [restartedMain] com.blog.BlogApplication                 : Starting BlogApplication on WIN-8PNMLH14NIR with PID 14100 (X:\IDEASpace\blog\target\classes started by Administrator in X:\IDEASpace\blog)
+2020-08-12 08:56:24.470  INFO 14100 --- [restartedMain] com.blog.BlogApplication                 : No active profile set, falling back to default profiles: default
+2020-08-12 08:56:24.519  INFO 14100 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-12 08:56:24.519  INFO 14100 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-12 08:56:25.420  INFO 14100 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-12 08:56:25.485  INFO 14100 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56ms. Found 5 JPA repository interfaces.
+2020-08-12 08:56:26.113  INFO 14100 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2020-08-12 08:56:26.120  INFO 14100 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-12 08:56:26.233  INFO 14100 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-08-12 08:56:26.319  INFO 14100 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-12 08:56:26.321  INFO 14100 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1801 ms
+2020-08-12 08:56:26.445  INFO 14100 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-12 08:56:26.523  INFO 14100 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-12 08:56:26.581  INFO 14100 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-08-12 08:56:26.659  WARN 14100 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-12 08:56:26.728  INFO 14100 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-12 08:56:26.832  INFO 14100 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-12 08:56:26.949  INFO 14100 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-12 08:56:26.969  INFO 14100 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-08-12 08:56:27.726  INFO 14100 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-12 08:56:27.732  INFO 14100 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-12 08:56:28.108  INFO 14100 --- [task-2] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-12 08:56:28.156  INFO 14100 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-12 08:56:28.222  WARN 14100 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-08-12 08:56:28.854  INFO 14100 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2020-08-12 08:56:28.855  INFO 14100 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-08-12 08:56:29.137  INFO 14100 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-12 08:56:29.142  INFO 14100 --- [restartedMain] com.blog.BlogApplication                 : Started BlogApplication in 5.114 seconds (JVM running for 7.853)
+2020-08-12 08:56:40.966  INFO 14100 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-12 08:56:40.966  INFO 14100 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-12 08:56:40.983  INFO 14100 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2020-08-12 08:56:41.203  INFO 14100 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.index, args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}])
+2020-08-12 08:56:41.329  WARN 14100 --- [http-nio-80-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-08-12 08:56:41.344  WARN 14100 --- [http-nio-80-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-08-12 08:56:41.368  INFO 14100 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : result:index
+2020-08-12 08:56:42.116  INFO 14100 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 08:56:42.131  INFO 14100 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 08:56:53.093  INFO 14100 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/blog/44, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.blog, args=[44, {}])
+2020-08-12 08:56:53.165  INFO 14100 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : result:blog
+2020-08-12 08:56:53.531  INFO 14100 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/comments/44, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.CommentController.commentList, args=[44, {}])
+2020-08-12 08:56:53.545  INFO 14100 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : result:blog::commentList
+2020-08-12 09:00:27.464  INFO 6332 --- [restartedMain] com.blog.BlogApplication                 : Starting BlogApplication on WIN-8PNMLH14NIR with PID 6332 (X:\IDEASpace\blog\target\classes started by Administrator in X:\IDEASpace\blog)
+2020-08-12 09:00:27.469  INFO 6332 --- [restartedMain] com.blog.BlogApplication                 : No active profile set, falling back to default profiles: default
+2020-08-12 09:00:27.510  INFO 6332 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-12 09:00:27.511  INFO 6332 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-12 09:00:28.161  INFO 6332 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-12 09:00:28.225  INFO 6332 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56ms. Found 5 JPA repository interfaces.
+2020-08-12 09:00:28.819  INFO 6332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2020-08-12 09:00:28.825  INFO 6332 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-12 09:00:28.825  INFO 6332 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-08-12 09:00:28.904  INFO 6332 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-12 09:00:28.904  INFO 6332 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1393 ms
+2020-08-12 09:00:29.082  INFO 6332 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-12 09:00:29.128  INFO 6332 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-12 09:00:29.169  INFO 6332 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-08-12 09:00:29.274  WARN 6332 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-12 09:00:29.288  INFO 6332 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-12 09:00:29.371  INFO 6332 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-12 09:00:29.458  INFO 6332 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-12 09:00:29.471  INFO 6332 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-08-12 09:00:30.138  INFO 6332 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-12 09:00:30.145  INFO 6332 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-12 09:00:30.473  INFO 6332 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-12 09:00:30.524  INFO 6332 --- [task-2] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-12 09:00:30.567  WARN 6332 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-08-12 09:00:30.771  INFO 6332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2020-08-12 09:00:30.772  INFO 6332 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-08-12 09:00:31.104  INFO 6332 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-12 09:00:31.284  INFO 6332 --- [restartedMain] com.blog.BlogApplication                 : Started BlogApplication in 4.193 seconds (JVM running for 6.769)
+2020-08-12 09:00:40.676  INFO 6332 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-12 09:00:40.676  INFO 6332 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-12 09:00:40.683  INFO 6332 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-08-12 09:00:40.708  INFO 6332 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.index, args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}])
+2020-08-12 09:00:40.778  WARN 6332 --- [http-nio-80-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-08-12 09:00:40.790  WARN 6332 --- [http-nio-80-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-08-12 09:00:40.806  INFO 6332 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : result:index
+2020-08-12 09:00:41.226  INFO 6332 --- [http-nio-80-exec-3] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 09:00:41.232  INFO 6332 --- [http-nio-80-exec-3] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 09:32:48.006  INFO 3592 --- [restartedMain] com.blog.BlogApplication                 : Starting BlogApplication on WIN-8PNMLH14NIR with PID 3592 (X:\IDEASpace\blog\target\classes started by Administrator in X:\IDEASpace\blog)
+2020-08-12 09:32:48.009  INFO 3592 --- [restartedMain] com.blog.BlogApplication                 : No active profile set, falling back to default profiles: default
+2020-08-12 09:32:48.062  INFO 3592 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-12 09:32:48.063  INFO 3592 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-12 09:32:48.865  INFO 3592 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-12 09:32:48.935  INFO 3592 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62ms. Found 5 JPA repository interfaces.
+2020-08-12 09:32:49.576  INFO 3592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2020-08-12 09:32:49.585  INFO 3592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-12 09:32:49.585  INFO 3592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-08-12 09:32:49.679  INFO 3592 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-12 09:32:49.679  INFO 3592 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1616 ms
+2020-08-12 09:32:49.943  INFO 3592 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-12 09:32:50.015  INFO 3592 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-12 09:32:50.071  INFO 3592 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-08-12 09:32:50.228  WARN 3592 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-12 09:32:50.253  INFO 3592 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-12 09:32:50.363  INFO 3592 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-12 09:32:50.454  INFO 3592 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-12 09:32:50.471  INFO 3592 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-08-12 09:32:51.170  INFO 3592 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-12 09:32:51.176  INFO 3592 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-12 09:32:51.523  INFO 3592 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-12 09:32:51.566  INFO 3592 --- [task-2] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-12 09:32:51.621  WARN 3592 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-08-12 09:32:51.809  INFO 3592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2020-08-12 09:32:51.810  INFO 3592 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-08-12 09:32:52.148  INFO 3592 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-12 09:32:52.340  INFO 3592 --- [restartedMain] com.blog.BlogApplication                 : Started BlogApplication in 4.732 seconds (JVM running for 7.47)
+2020-08-12 09:33:11.869  INFO 3592 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-12 09:33:11.871  INFO 3592 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-12 09:33:11.879  INFO 3592 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-08-12 09:33:11.902  INFO 3592 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.index, args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}])
+2020-08-12 09:33:11.975  WARN 3592 --- [http-nio-80-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-08-12 09:33:11.985  WARN 3592 --- [http-nio-80-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-08-12 09:33:11.999  INFO 3592 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : result:index
+2020-08-12 09:33:12.528  INFO 3592 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 09:33:12.539  INFO 3592 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 09:33:18.906  INFO 3592 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/blog/44, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.blog, args=[44, {}])
+2020-08-12 09:33:18.964  INFO 3592 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : result:blog
+2020-08-12 09:33:19.284  INFO 3592 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/comments/44, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.CommentController.commentList, args=[44, {}])
+2020-08-12 09:33:19.304  INFO 3592 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : result:blog::commentList
+2020-08-12 09:34:39.257  INFO 3592 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/about, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.AboutController.about, args=[])
+2020-08-12 09:34:39.260  INFO 3592 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : result:about
+2020-08-12 09:34:39.268 ERROR 3592 --- [http-nio-80-exec-8] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-80-exec-8] Exception processing template "about": Error resolving template [about], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [about], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373) [spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118) [spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057) [spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) [spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) [spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_221]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_221]
+
+2020-08-12 09:34:39.272 ERROR 3592 --- [http-nio-80-exec-8] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [about], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [about], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_221]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.35.jar:9.0.35]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_221]
+
+2020-08-12 09:37:38.967  INFO 12052 --- [restartedMain] com.blog.BlogApplication                 : Starting BlogApplication on WIN-8PNMLH14NIR with PID 12052 (X:\IDEASpace\blog\target\classes started by Administrator in X:\IDEASpace\blog)
+2020-08-12 09:37:38.969  INFO 12052 --- [restartedMain] com.blog.BlogApplication                 : No active profile set, falling back to default profiles: default
+2020-08-12 09:37:39.013  INFO 12052 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-12 09:37:39.013  INFO 12052 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-12 09:37:39.593  INFO 12052 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-12 09:37:39.655  INFO 12052 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55ms. Found 5 JPA repository interfaces.
+2020-08-12 09:37:40.197  INFO 12052 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2020-08-12 09:37:40.203  INFO 12052 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-12 09:37:40.204  INFO 12052 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-08-12 09:37:40.279  INFO 12052 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-12 09:37:40.280  INFO 12052 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1266 ms
+2020-08-12 09:37:40.435  INFO 12052 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-12 09:37:40.468  INFO 12052 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-12 09:37:40.500  INFO 12052 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-08-12 09:37:40.581  WARN 12052 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-12 09:37:40.595  INFO 12052 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-12 09:37:40.662  INFO 12052 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-12 09:37:40.740  INFO 12052 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-12 09:37:40.752  INFO 12052 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-08-12 09:37:41.349  INFO 12052 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-12 09:37:41.355  INFO 12052 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-12 09:37:41.647  INFO 12052 --- [task-2] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-12 09:37:41.688  INFO 12052 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-12 09:37:41.738  WARN 12052 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-08-12 09:37:41.895  INFO 12052 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2020-08-12 09:37:41.896  INFO 12052 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-08-12 09:37:42.320  INFO 12052 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-12 09:37:42.326  INFO 12052 --- [restartedMain] com.blog.BlogApplication                 : Started BlogApplication in 3.702 seconds (JVM running for 6.156)
+2020-08-12 09:37:56.704  INFO 12052 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-12 09:37:56.705  INFO 12052 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-12 09:37:56.713  INFO 12052 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-08-12 09:37:56.736  INFO 12052 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.index, args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}])
+2020-08-12 09:37:56.814  WARN 12052 --- [http-nio-80-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-08-12 09:37:56.825  WARN 12052 --- [http-nio-80-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-08-12 09:37:56.841  INFO 12052 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : result:index
+2020-08-12 09:37:57.232  INFO 12052 --- [http-nio-80-exec-3] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 09:37:57.238  INFO 12052 --- [http-nio-80-exec-3] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 09:38:02.018  INFO 12052 --- [http-nio-80-exec-2] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/about/me, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.AboutController.about, args=[])
+2020-08-12 09:38:02.021  INFO 12052 --- [http-nio-80-exec-2] com.blog.aspect.LogAspect                : result:aboutme
+2020-08-12 09:38:02.155  INFO 12052 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 09:38:02.171  INFO 12052 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 09:40:15.896  INFO 12052 --- [http-nio-80-exec-3] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/about/me, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.AboutController.about, args=[])
+2020-08-12 09:40:15.897  INFO 12052 --- [http-nio-80-exec-3] com.blog.aspect.LogAspect                : result:aboutme
+2020-08-12 09:40:16.004  INFO 12052 --- [http-nio-80-exec-2] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 09:40:16.010  INFO 12052 --- [http-nio-80-exec-2] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 09:41:05.872  INFO 12052 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/about/me, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.AboutController.about, args=[])
+2020-08-12 09:41:05.873  INFO 12052 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : result:aboutme
+2020-08-12 09:41:05.955  INFO 12052 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/about/me, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.AboutController.about, args=[])
+2020-08-12 09:41:05.955  INFO 12052 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : result:aboutme
+2020-08-12 09:41:06.096  INFO 12052 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 09:41:06.106  INFO 12052 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 09:41:22.723  INFO 12052 --- [http-nio-80-exec-10] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/about/me, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.AboutController.about, args=[])
+2020-08-12 09:41:22.723  INFO 12052 --- [http-nio-80-exec-10] com.blog.aspect.LogAspect                : result:aboutme
+2020-08-12 09:41:22.764  INFO 12052 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/about/me, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.AboutController.about, args=[])
+2020-08-12 09:41:22.765  INFO 12052 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : result:aboutme
+2020-08-12 09:41:22.879  INFO 12052 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 09:41:22.889  INFO 12052 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 09:41:44.130  INFO 12052 --- [http-nio-80-exec-6] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/search, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.search, args=[Page request [number: 0, size 6, sort: updateTime: DESC], java, {}])
+2020-08-12 09:41:44.144  INFO 12052 --- [http-nio-80-exec-6] com.blog.aspect.LogAspect                : result:search
+2020-08-12 09:42:51.363  INFO 12052 --- [http-nio-80-exec-3] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/about/me, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.AboutController.about, args=[])
+2020-08-12 09:42:51.364  INFO 12052 --- [http-nio-80-exec-3] com.blog.aspect.LogAspect                : result:aboutme
+2020-08-12 09:42:51.515  INFO 12052 --- [http-nio-80-exec-3] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 09:42:51.525  INFO 12052 --- [http-nio-80-exec-3] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 09:45:47.961  INFO 12052 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.index, args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}])
+2020-08-12 09:45:47.977  INFO 12052 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : result:index
+2020-08-12 09:45:48.124  INFO 12052 --- [http-nio-80-exec-6] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 09:45:48.128  INFO 12052 --- [http-nio-80-exec-6] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 09:46:04.730  INFO 12052 --- [http-nio-80-exec-2] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/tags/-1, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.TagsShowController.Tags, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}, -1])
+2020-08-12 09:46:04.759  INFO 12052 --- [http-nio-80-exec-2] com.blog.aspect.LogAspect                : result:tags
+2020-08-12 09:46:04.975  INFO 12052 --- [http-nio-80-exec-2] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 09:46:04.983  INFO 12052 --- [http-nio-80-exec-2] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 09:46:14.218  INFO 12052 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/types/-1, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.TypeShowController.types, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}, -1])
+2020-08-12 09:46:14.231  INFO 12052 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : result:types
+2020-08-12 09:46:14.455  INFO 12052 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 09:46:14.459  INFO 12052 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 09:46:17.064  INFO 12052 --- [http-nio-80-exec-3] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/tags/-1, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.TagsShowController.Tags, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}, -1])
+2020-08-12 09:46:17.078  INFO 12052 --- [http-nio-80-exec-3] com.blog.aspect.LogAspect                : result:tags
+2020-08-12 09:46:17.182  INFO 12052 --- [http-nio-80-exec-3] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 09:46:17.187  INFO 12052 --- [http-nio-80-exec-3] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 09:46:19.959  INFO 12052 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/archives, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.ArchivesController.archives, args=[{}])
+2020-08-12 09:46:19.995  INFO 12052 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : result:archives
+2020-08-12 09:46:20.295  INFO 12052 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 09:46:20.300  INFO 12052 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 09:46:24.760  INFO 12052 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/about/me, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.AboutController.about, args=[])
+2020-08-12 09:46:24.761  INFO 12052 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : result:aboutme
+2020-08-12 09:46:24.838  INFO 12052 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 09:46:24.841  INFO 12052 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 09:46:30.911  INFO 12052 --- [http-nio-80-exec-10] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/archives, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.ArchivesController.archives, args=[{}])
+2020-08-12 09:46:30.920  INFO 12052 --- [http-nio-80-exec-10] com.blog.aspect.LogAspect                : result:archives
+2020-08-12 09:46:30.984  INFO 12052 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 09:46:30.987  INFO 12052 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 09:46:31.880  INFO 12052 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/tags/-1, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.TagsShowController.Tags, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}, -1])
+2020-08-12 09:46:31.899  INFO 12052 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : result:tags
+2020-08-12 09:46:31.994  INFO 12052 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 09:46:31.999  INFO 12052 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 09:46:33.509  INFO 12052 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.index, args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}])
+2020-08-12 09:46:33.518  INFO 12052 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : result:index
+2020-08-12 09:46:33.608  INFO 12052 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 09:46:33.612  INFO 12052 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 09:46:41.820  INFO 12052 --- [http-nio-80-exec-6] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/supper, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.admin.LoginController.loginPage, args=[])
+2020-08-12 09:46:41.822  INFO 12052 --- [http-nio-80-exec-6] com.blog.aspect.LogAspect                : result:admin/login
+2020-08-12 09:46:45.712  INFO 12052 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/supper/login, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.admin.LoginController.login, args=[admin, 1212, org.apache.catalina.session.StandardSessionFacade@5190f3, {}])
+2020-08-12 09:46:45.719  INFO 12052 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : result:admin/index
+2020-08-12 09:46:54.722  INFO 12052 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/supper/login, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.admin.LoginController.login, args=[admin, 1212, org.apache.catalina.session.StandardSessionFacade@5190f3, {}])
+2020-08-12 09:46:54.724  INFO 12052 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : result:admin/index
+2020-08-12 09:50:07.246  INFO 12052 --- [Thread-192] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-12 09:50:07.248  INFO 12052 --- [Thread-192] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-12 09:50:07.249  INFO 12052 --- [Thread-192] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-12 09:50:07.253  INFO 12052 --- [Thread-192] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-12 09:50:07.477  INFO 12052 --- [restartedMain] com.blog.BlogApplication                 : Starting BlogApplication on WIN-8PNMLH14NIR with PID 12052 (X:\IDEASpace\blog\target\classes started by Administrator in X:\IDEASpace\blog)
+2020-08-12 09:50:07.477  INFO 12052 --- [restartedMain] com.blog.BlogApplication                 : No active profile set, falling back to default profiles: default
+2020-08-12 09:50:07.648  INFO 12052 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-12 09:50:07.664  INFO 12052 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 5 JPA repository interfaces.
+2020-08-12 09:50:07.805  INFO 12052 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2020-08-12 09:50:07.805  INFO 12052 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-12 09:50:07.806  INFO 12052 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-08-12 09:50:07.822  INFO 12052 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-12 09:50:07.822  INFO 12052 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 343 ms
+2020-08-12 09:50:07.870  INFO 12052 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-12 09:50:07.880  INFO 12052 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-12 09:50:07.884  INFO 12052 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-08-12 09:50:07.888  INFO 12052 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-08-12 09:50:07.888  INFO 12052 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-08-12 09:50:07.966  WARN 12052 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-12 09:50:08.048  INFO 12052 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-12 09:50:08.049  INFO 12052 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-12 09:50:08.222  INFO 12052 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-12 09:50:08.268  INFO 12052 --- [task-2] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-12 09:50:08.294  WARN 12052 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-08-12 09:50:08.435  INFO 12052 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2020-08-12 09:50:08.436  INFO 12052 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-08-12 09:50:08.573  INFO 12052 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-12 09:50:08.576  INFO 12052 --- [restartedMain] com.blog.BlogApplication                 : Started BlogApplication in 1.124 seconds (JVM running for 752.406)
+2020-08-12 09:50:08.577  INFO 12052 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-08-12 09:50:10.277  INFO 12052 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-12 09:50:10.278  INFO 12052 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-12 09:50:10.285  INFO 12052 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-08-12 09:50:10.288  INFO 12052 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/supper/login, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.admin.LoginController.login, args=[admin, 1212, org.apache.catalina.session.StandardSessionFacade@7fa71e90, {}])
+2020-08-12 09:50:10.294  INFO 12052 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : result:admin/index
+2020-08-12 09:50:10.386  INFO 12052 --- [http-nio-80-exec-6] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/super/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newSuperBlogs, args=[{}])
+2020-08-12 09:50:10.396  INFO 12052 --- [http-nio-80-exec-6] com.blog.aspect.LogAspect                : result:admin/admin_fragments::newblogList
+2020-08-12 09:50:17.366  INFO 12052 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/blog/44, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.blog, args=[44, {}])
+2020-08-12 09:50:17.420  INFO 12052 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : result:blog
+2020-08-12 09:50:17.741  INFO 12052 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/comments/44, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.CommentController.commentList, args=[44, {}])
+2020-08-12 09:50:17.750  INFO 12052 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : result:blog::commentList
+2020-08-12 09:55:11.000  INFO 12052 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/blog/44, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.blog, args=[44, {}])
+2020-08-12 09:55:11.015  INFO 12052 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : result:blog
+2020-08-12 09:55:11.192  INFO 12052 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/comments/44, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.CommentController.commentList, args=[44, {}])
+2020-08-12 09:55:11.198  INFO 12052 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : result:blog::commentList
+2020-08-12 09:55:26.241  INFO 12052 --- [http-nio-80-exec-3] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/supper/login, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.admin.LoginController.login, args=[admin, 1212, org.apache.catalina.session.StandardSessionFacade@7fa71e90, {}])
+2020-08-12 09:55:26.243  INFO 12052 --- [http-nio-80-exec-3] com.blog.aspect.LogAspect                : result:admin/index
+2020-08-12 09:55:26.302  INFO 12052 --- [http-nio-80-exec-2] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/super/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newSuperBlogs, args=[{}])
+2020-08-12 09:55:26.304  INFO 12052 --- [http-nio-80-exec-2] com.blog.aspect.LogAspect                : result:admin/admin_fragments::newblogList
+2020-08-12 09:55:56.397  INFO 12052 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/supper/login, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.admin.LoginController.login, args=[admin, 1212, org.apache.catalina.session.StandardSessionFacade@7fa71e90, {}])
+2020-08-12 09:55:56.399  INFO 12052 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : result:admin/index
+2020-08-12 09:55:56.456  INFO 12052 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/super/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newSuperBlogs, args=[{}])
+2020-08-12 09:55:56.459  INFO 12052 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : result:admin/admin_fragments::newblogList
+2020-08-12 09:56:23.687  INFO 12052 --- [http-nio-80-exec-10] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/supper/login, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.admin.LoginController.login, args=[admin, 1212, org.apache.catalina.session.StandardSessionFacade@7fa71e90, {}])
+2020-08-12 09:56:23.688  INFO 12052 --- [http-nio-80-exec-10] com.blog.aspect.LogAspect                : result:admin/index
+2020-08-12 09:56:23.746  INFO 12052 --- [http-nio-80-exec-6] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/super/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newSuperBlogs, args=[{}])
+2020-08-12 09:56:23.749  INFO 12052 --- [http-nio-80-exec-6] com.blog.aspect.LogAspect                : result:admin/admin_fragments::newblogList
+2020-08-12 09:56:32.654  INFO 12052 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/supper/types, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.admin.TypeController.types, args=[Page request [number: 0, size 4, sort: id: DESC], {}])
+2020-08-12 09:56:32.664  INFO 12052 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : result:admin/types
+2020-08-12 09:56:32.815  INFO 12052 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/super/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newSuperBlogs, args=[{}])
+2020-08-12 09:56:32.818  INFO 12052 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : result:admin/admin_fragments::newblogList
+2020-08-12 09:56:39.899  INFO 12052 --- [http-nio-80-exec-3] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/supper/tags, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.admin.TagController.tags, args=[Page request [number: 0, size 4, sort: id: DESC], {}])
+2020-08-12 09:56:39.906  INFO 12052 --- [http-nio-80-exec-3] com.blog.aspect.LogAspect                : result:admin/tags
+2020-08-12 09:56:40.045  INFO 12052 --- [http-nio-80-exec-2] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/super/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newSuperBlogs, args=[{}])
+2020-08-12 09:56:40.048  INFO 12052 --- [http-nio-80-exec-2] com.blog.aspect.LogAspect                : result:admin/admin_fragments::newblogList
+2020-08-12 09:56:41.268  INFO 12052 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/supper/types, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.admin.TypeController.types, args=[Page request [number: 0, size 4, sort: id: DESC], {}])
+2020-08-12 09:56:41.271  INFO 12052 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : result:admin/types
+2020-08-12 09:56:41.327  INFO 12052 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/super/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newSuperBlogs, args=[{}])
+2020-08-12 09:56:41.329  INFO 12052 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : result:admin/admin_fragments::newblogList
+2020-08-12 09:56:42.490  INFO 12052 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/supper/blogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.admin.BlogController.blog, args=[Page request [number: 0, size 2, sort: updateTime: DESC], BlogQuery(title=null, typeId=null, recommend=null), {blogQuery=BlogQuery(title=null, typeId=null, recommend=null), org.springframework.validation.BindingResult.blogQuery=org.springframework.validation.BeanPropertyBindingResult: 0 errors}])
+2020-08-12 09:56:42.500  INFO 12052 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : result:admin/blogs
+2020-08-12 09:56:42.647  INFO 12052 --- [http-nio-80-exec-6] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/super/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newSuperBlogs, args=[{}])
+2020-08-12 09:56:42.650  INFO 12052 --- [http-nio-80-exec-6] com.blog.aspect.LogAspect                : result:admin/admin_fragments::newblogList
+2020-08-12 09:56:47.028  INFO 12052 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.index, args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}])
+2020-08-12 09:56:47.035  WARN 12052 --- [http-nio-80-exec-5] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-08-12 09:56:47.039  WARN 12052 --- [http-nio-80-exec-5] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-08-12 09:56:47.042  INFO 12052 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : result:index
+2020-08-12 09:56:47.155  INFO 12052 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 09:56:47.157  INFO 12052 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 09:56:54.054  INFO 12052 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/types/-1, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.TypeShowController.types, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}, -1])
+2020-08-12 09:56:54.065  INFO 12052 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : result:types
+2020-08-12 09:56:54.167  INFO 12052 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 09:56:54.172  INFO 12052 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 09:56:56.316  INFO 12052 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/tags/-1, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.TagsShowController.Tags, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}, -1])
+2020-08-12 09:56:56.333  INFO 12052 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : result:tags
+2020-08-12 09:56:56.413  INFO 12052 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 09:56:56.415  INFO 12052 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 09:56:58.389  INFO 12052 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/archives, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.ArchivesController.archives, args=[{}])
+2020-08-12 09:56:58.403  INFO 12052 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : result:archives
+2020-08-12 09:56:58.481  INFO 12052 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 09:56:58.485  INFO 12052 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 09:57:00.429  INFO 12052 --- [http-nio-80-exec-10] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/about/me, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.AboutController.about, args=[])
+2020-08-12 09:57:00.431  INFO 12052 --- [http-nio-80-exec-10] com.blog.aspect.LogAspect                : result:aboutme
+2020-08-12 09:57:00.494  INFO 12052 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 09:57:00.496  INFO 12052 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 09:57:04.315  INFO 12052 --- [http-nio-80-exec-6] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.index, args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}])
+2020-08-12 09:57:04.325  INFO 12052 --- [http-nio-80-exec-6] com.blog.aspect.LogAspect                : result:index
+2020-08-12 09:57:04.417  INFO 12052 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 09:57:04.423  INFO 12052 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 09:57:05.800  INFO 12052 --- [http-nio-80-exec-2] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/blog/44, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.blog, args=[44, {}])
+2020-08-12 09:57:05.815  INFO 12052 --- [http-nio-80-exec-2] com.blog.aspect.LogAspect                : result:blog
+2020-08-12 09:57:05.996  INFO 12052 --- [http-nio-80-exec-2] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/comments/44, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.CommentController.commentList, args=[44, {}])
+2020-08-12 09:57:05.998  INFO 12052 --- [http-nio-80-exec-2] com.blog.aspect.LogAspect                : result:blog::commentList
+2020-08-12 10:03:31.849  INFO 12052 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.index, args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}])
+2020-08-12 10:03:31.861  INFO 12052 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : result:index
+2020-08-12 10:03:31.977  INFO 12052 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 10:03:31.983  INFO 12052 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 10:03:46.958  INFO 12052 --- [http-nio-80-exec-10] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/types/-1, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.TypeShowController.types, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}, -1])
+2020-08-12 10:03:46.964  INFO 12052 --- [http-nio-80-exec-10] com.blog.aspect.LogAspect                : result:types
+2020-08-12 10:03:47.034  INFO 12052 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 10:03:47.038  INFO 12052 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 10:03:52.366  INFO 12052 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/blog/32, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.blog, args=[32, {}])
+2020-08-12 10:03:52.380  INFO 12052 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : result:blog
+2020-08-12 10:03:52.571  INFO 12052 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/comments/32, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.CommentController.commentList, args=[32, {}])
+2020-08-12 10:03:52.575  INFO 12052 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : result:blog::commentList
+2020-08-12 10:04:12.597  INFO 12052 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/tags/-1, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.TagsShowController.Tags, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}, -1])
+2020-08-12 10:04:12.611  INFO 12052 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : result:tags
+2020-08-12 10:04:12.708  INFO 12052 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 10:04:12.712  INFO 12052 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 10:04:14.465  INFO 12052 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/tags/41, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.TagsShowController.Tags, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}, 41])
+2020-08-12 10:04:14.477  INFO 12052 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : result:tags
+2020-08-12 10:04:14.565  INFO 12052 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 10:04:14.567  INFO 12052 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 10:04:17.767  INFO 12052 --- [http-nio-80-exec-2] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/blog/44, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.blog, args=[44, {}])
+2020-08-12 10:04:17.781  INFO 12052 --- [http-nio-80-exec-2] com.blog.aspect.LogAspect                : result:blog
+2020-08-12 10:04:17.934  INFO 12052 --- [http-nio-80-exec-2] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/comments/44, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.CommentController.commentList, args=[44, {}])
+2020-08-12 10:04:17.937  INFO 12052 --- [http-nio-80-exec-2] com.blog.aspect.LogAspect                : result:blog::commentList
+2020-08-12 10:04:25.660  INFO 12052 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/types/-1, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.TypeShowController.types, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}, -1])
+2020-08-12 10:04:25.666  INFO 12052 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : result:types
+2020-08-12 10:04:25.761  INFO 12052 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 10:04:25.766  INFO 12052 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 10:07:54.166  INFO 12052 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/types/-1, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.TypeShowController.types, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}, -1])
+2020-08-12 10:07:54.171  INFO 12052 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : result:types
+2020-08-12 10:07:54.258  INFO 12052 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 10:07:54.262  INFO 12052 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 10:07:57.294  INFO 12052 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.index, args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}])
+2020-08-12 10:07:57.306  INFO 12052 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : result:index
+2020-08-12 10:07:57.386  INFO 12052 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 10:07:57.389  INFO 12052 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 10:07:59.628  INFO 12052 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/types/26, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.TypeShowController.types, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}, 26])
+2020-08-12 10:07:59.635  INFO 12052 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : result:types
+2020-08-12 10:07:59.717  INFO 12052 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 10:07:59.722  INFO 12052 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 10:08:01.868  INFO 12052 --- [http-nio-80-exec-2] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.index, args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}])
+2020-08-12 10:08:01.880  INFO 12052 --- [http-nio-80-exec-2] com.blog.aspect.LogAspect                : result:index
+2020-08-12 10:08:01.951  INFO 12052 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 10:08:01.953  INFO 12052 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 10:08:03.083  INFO 12052 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/types/27, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.TypeShowController.types, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}, 27])
+2020-08-12 10:08:03.088  INFO 12052 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : result:types
+2020-08-12 10:08:03.168  INFO 12052 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 10:08:03.170  INFO 12052 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 10:08:04.762  INFO 12052 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.index, args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}])
+2020-08-12 10:08:04.771  INFO 12052 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : result:index
+2020-08-12 10:08:04.854  INFO 12052 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 10:08:04.856  INFO 12052 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 10:08:06.237  INFO 12052 --- [http-nio-80-exec-6] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/tags/41, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.TagsShowController.Tags, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}, 41])
+2020-08-12 10:08:06.250  INFO 12052 --- [http-nio-80-exec-6] com.blog.aspect.LogAspect                : result:tags
+2020-08-12 10:08:06.317  INFO 12052 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 10:08:06.319  INFO 12052 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 10:08:17.686  INFO 12052 --- [http-nio-80-exec-10] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/about/me, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.AboutController.about, args=[])
+2020-08-12 10:08:17.686  INFO 12052 --- [http-nio-80-exec-10] com.blog.aspect.LogAspect                : result:aboutme
+2020-08-12 10:08:17.752  INFO 12052 --- [http-nio-80-exec-6] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 10:08:17.755  INFO 12052 --- [http-nio-80-exec-6] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 10:08:22.309  INFO 12052 --- [http-nio-80-exec-3] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/types/-1, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.TypeShowController.types, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}, -1])
+2020-08-12 10:08:22.312  INFO 12052 --- [http-nio-80-exec-3] com.blog.aspect.LogAspect                : result:types
+2020-08-12 10:08:22.390  INFO 12052 --- [http-nio-80-exec-3] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 10:08:22.394  INFO 12052 --- [http-nio-80-exec-3] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 10:08:24.283  INFO 12052 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/blog/44, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.blog, args=[44, {}])
+2020-08-12 10:08:24.294  INFO 12052 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : result:blog
+2020-08-12 10:08:24.446  INFO 12052 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/comments/44, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.CommentController.commentList, args=[44, {}])
+2020-08-12 10:08:24.449  INFO 12052 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : result:blog::commentList
+2020-08-12 10:11:46.685  INFO 12052 --- [http-nio-80-exec-10] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/blog/32, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.blog, args=[32, {}])
+2020-08-12 10:11:46.698  INFO 12052 --- [http-nio-80-exec-10] com.blog.aspect.LogAspect                : result:blog
+2020-08-12 10:11:46.872  INFO 12052 --- [http-nio-80-exec-10] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/comments/32, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.CommentController.commentList, args=[32, {}])
+2020-08-12 10:11:46.873  INFO 12052 --- [http-nio-80-exec-10] com.blog.aspect.LogAspect                : result:blog::commentList
+2020-08-12 10:12:09.632  INFO 12052 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/comments, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.CommentController.post, args=[Comment(id=null, nickname=哈呀, email=1929696300@qq.com, content=欢迎大家评论, avatar=null, createTime=null, blog=Blog(id=32, title=null, content=null, firstPicture=null, flag=null, views=null, appreciation=null, tagids=null, shareStatement=null, commentTabled=null, published=null, recommend=null, createTime=null, updateTime=null, type=null, description=null, tags=[], user=null, comments=[]), replyComment=[], parentComment=Comment(id=-1, nickname=null, email=null, content=null, avatar=null, createTime=null, blog=null, replyComment=[], parentComment=null, adminComment=false), adminComment=false), org.apache.catalina.session.StandardSessionFacade@7fa71e90])
+2020-08-12 10:12:09.674  INFO 12052 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : result:redirect:/comments/32
+2020-08-12 10:12:09.684  INFO 12052 --- [http-nio-80-exec-2] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/comments/32, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.CommentController.commentList, args=[32, {}])
+2020-08-12 10:12:09.688  INFO 12052 --- [http-nio-80-exec-2] com.blog.aspect.LogAspect                : result:blog::commentList
+2020-08-12 10:12:27.112  INFO 12052 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/supper/logout, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.admin.LoginController.logout, args=[org.apache.catalina.session.StandardSessionFacade@7fa71e90])
+2020-08-12 10:12:27.112  INFO 12052 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : result:redirect:admin/login
+2020-08-12 10:12:27.122  INFO 12052 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/supper, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.admin.LoginController.loginPage, args=[])
+2020-08-12 10:12:27.122  INFO 12052 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : result:admin/login
+2020-08-12 10:12:30.106  INFO 12052 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/blog/32, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.blog, args=[32, {}])
+2020-08-12 10:12:30.115  INFO 12052 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : result:blog
+2020-08-12 10:12:30.304  INFO 12052 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/comments/32, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.CommentController.commentList, args=[32, {}])
+2020-08-12 10:12:30.311  INFO 12052 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : result:blog::commentList
+2020-08-12 10:12:43.204  INFO 12052 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/comments, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.CommentController.post, args=[Comment(id=null, nickname=小黑, email=1929696300@QQ.com, content=占楼, avatar=null, createTime=null, blog=Blog(id=32, title=null, content=null, firstPicture=null, flag=null, views=null, appreciation=null, tagids=null, shareStatement=null, commentTabled=null, published=null, recommend=null, createTime=null, updateTime=null, type=null, description=null, tags=[], user=null, comments=[]), replyComment=[], parentComment=Comment(id=-1, nickname=null, email=null, content=null, avatar=null, createTime=null, blog=null, replyComment=[], parentComment=null, adminComment=false), adminComment=false), org.apache.catalina.session.StandardSessionFacade@7fa71e90])
+2020-08-12 10:12:43.218  INFO 12052 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : result:redirect:/comments/32
+2020-08-12 10:12:43.222  INFO 12052 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/comments/32, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.CommentController.commentList, args=[32, {}])
+2020-08-12 10:12:43.224  INFO 12052 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : result:blog::commentList
+2020-08-12 10:18:33.639  INFO 6032 --- [restartedMain] com.blog.BlogApplication                 : Starting BlogApplication on WIN-8PNMLH14NIR with PID 6032 (X:\IDEASpace\blog\target\classes started by Administrator in X:\IDEASpace\blog)
+2020-08-12 10:18:33.642  INFO 6032 --- [restartedMain] com.blog.BlogApplication                 : No active profile set, falling back to default profiles: default
+2020-08-12 10:18:33.682  INFO 6032 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-12 10:18:33.683  INFO 6032 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-12 10:18:34.341  INFO 6032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-12 10:18:34.401  INFO 6032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53ms. Found 5 JPA repository interfaces.
+2020-08-12 10:18:34.925  INFO 6032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2020-08-12 10:18:34.935  INFO 6032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-12 10:18:34.935  INFO 6032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-08-12 10:18:35.013  INFO 6032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-12 10:18:35.013  INFO 6032 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1330 ms
+2020-08-12 10:18:35.167  INFO 6032 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-12 10:18:35.197  INFO 6032 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-12 10:18:35.227  INFO 6032 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-08-12 10:18:35.306  WARN 6032 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-12 10:18:35.317  INFO 6032 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-12 10:18:35.386  INFO 6032 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-12 10:18:35.459  INFO 6032 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-12 10:18:35.472  INFO 6032 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-08-12 10:18:36.080  INFO 6032 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-12 10:18:36.086  INFO 6032 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-12 10:18:36.376  INFO 6032 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-12 10:18:36.414  INFO 6032 --- [task-2] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-12 10:18:36.456  WARN 6032 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-08-12 10:18:36.611  INFO 6032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2020-08-12 10:18:36.613  INFO 6032 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-08-12 10:18:36.870  INFO 6032 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-12 10:18:37.023  INFO 6032 --- [restartedMain] com.blog.BlogApplication                 : Started BlogApplication in 3.716 seconds (JVM running for 6.684)
+2020-08-12 10:22:57.147  INFO 6032 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-12 10:22:57.147  INFO 6032 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-12 10:22:57.154  INFO 6032 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-08-12 10:22:57.179  INFO 6032 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/blog/32, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.blog, args=[32, {}])
+2020-08-12 10:22:57.292  INFO 6032 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : result:blog
+2020-08-12 10:22:57.703  INFO 6032 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/comments/32, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.CommentController.commentList, args=[32, {}])
+2020-08-12 10:22:57.741  INFO 6032 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : result:blog::commentList
+2020-08-12 10:23:05.338  INFO 6032 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/blog/32, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.blog, args=[32, {}])
+2020-08-12 10:23:05.351  INFO 6032 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : result:blog
+2020-08-12 10:23:05.496  INFO 6032 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/comments/32, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.CommentController.commentList, args=[32, {}])
+2020-08-12 10:23:05.503  INFO 6032 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : result:blog::commentList
+2020-08-12 10:23:24.562  INFO 6032 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/types/-1, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.TypeShowController.types, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}, -1])
+2020-08-12 10:23:24.571  WARN 6032 --- [http-nio-80-exec-9] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-08-12 10:23:24.590  INFO 6032 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : result:types
+2020-08-12 10:23:24.703  INFO 6032 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 10:23:24.709  INFO 6032 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 10:23:27.083  INFO 6032 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.index, args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}])
+2020-08-12 10:23:27.108  WARN 6032 --- [http-nio-80-exec-7] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-08-12 10:23:27.113  INFO 6032 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : result:index
+2020-08-12 10:23:27.226  INFO 6032 --- [http-nio-80-exec-10] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 10:23:27.232  INFO 6032 --- [http-nio-80-exec-10] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 10:23:34.098  INFO 6032 --- [http-nio-80-exec-2] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/blog/35, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.blog, args=[35, {}])
+2020-08-12 10:23:34.110  INFO 6032 --- [http-nio-80-exec-2] com.blog.aspect.LogAspect                : result:blog
+2020-08-12 10:23:34.337  INFO 6032 --- [http-nio-80-exec-2] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/comments/35, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.CommentController.commentList, args=[35, {}])
+2020-08-12 10:23:34.348  INFO 6032 --- [http-nio-80-exec-2] com.blog.aspect.LogAspect                : result:blog::commentList
+2020-08-12 10:24:00.634  INFO 656 --- [restartedMain] com.blog.BlogApplication                 : Starting BlogApplication on WIN-8PNMLH14NIR with PID 656 (X:\IDEASpace\blog\target\classes started by Administrator in X:\IDEASpace\blog)
+2020-08-12 10:24:00.637  INFO 656 --- [restartedMain] com.blog.BlogApplication                 : No active profile set, falling back to default profiles: default
+2020-08-12 10:24:00.677  INFO 656 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-12 10:24:00.678  INFO 656 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-12 10:24:01.313  INFO 656 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-12 10:24:01.377  INFO 656 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58ms. Found 5 JPA repository interfaces.
+2020-08-12 10:24:01.925  INFO 656 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2020-08-12 10:24:01.931  INFO 656 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-12 10:24:01.932  INFO 656 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-08-12 10:24:02.009  INFO 656 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-12 10:24:02.010  INFO 656 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1332 ms
+2020-08-12 10:24:02.175  INFO 656 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-12 10:24:02.207  INFO 656 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-12 10:24:02.239  INFO 656 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-08-12 10:24:02.323  WARN 656 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-12 10:24:02.334  INFO 656 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-12 10:24:02.405  INFO 656 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-12 10:24:02.481  INFO 656 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-12 10:24:02.494  INFO 656 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-08-12 10:24:03.147  INFO 656 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-12 10:24:03.153  INFO 656 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-12 10:24:03.470  INFO 656 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-12 10:24:03.516  INFO 656 --- [task-2] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-12 10:24:03.570  WARN 656 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-08-12 10:24:03.737  INFO 656 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2020-08-12 10:24:03.737  INFO 656 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-08-12 10:24:04.007  INFO 656 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-12 10:24:04.178  INFO 656 --- [restartedMain] com.blog.BlogApplication                 : Started BlogApplication in 3.892 seconds (JVM running for 7.15)
+2020-08-12 10:24:33.802  INFO 656 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-12 10:24:33.803  INFO 656 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-12 10:24:33.810  INFO 656 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-08-12 10:24:33.835  INFO 656 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.index, args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}])
+2020-08-12 10:24:33.903  WARN 656 --- [http-nio-80-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-08-12 10:24:33.912  WARN 656 --- [http-nio-80-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-08-12 10:24:33.926  INFO 656 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : result:index
+2020-08-12 10:24:34.418  INFO 656 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 10:24:34.424  INFO 656 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 10:24:44.670  INFO 656 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.index, args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}])
+2020-08-12 10:24:44.687  INFO 656 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : result:index
+2020-08-12 10:24:44.895  INFO 656 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 10:24:44.902  INFO 656 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 10:24:50.972  INFO 656 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/blog/36, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.blog, args=[36, {}])
+2020-08-12 10:24:51.018  INFO 656 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : result:blog
+2020-08-12 10:24:51.308  INFO 656 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/comments/36, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.CommentController.commentList, args=[36, {}])
+2020-08-12 10:24:51.365  INFO 656 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : result:blog::commentList
+2020-08-12 10:24:55.872  INFO 656 --- [http-nio-80-exec-10] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/blog/36, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.blog, args=[36, {}])
+2020-08-12 10:24:55.885  INFO 656 --- [http-nio-80-exec-10] com.blog.aspect.LogAspect                : result:blog
+2020-08-12 10:24:56.139  INFO 656 --- [http-nio-80-exec-10] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/comments/36, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.CommentController.commentList, args=[36, {}])
+2020-08-12 10:24:56.150  INFO 656 --- [http-nio-80-exec-10] com.blog.aspect.LogAspect                : result:blog::commentList
+2020-08-12 10:25:15.836  INFO 656 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.index, args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}])
+2020-08-12 10:25:15.854  INFO 656 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : result:index
+2020-08-12 10:25:16.046  INFO 656 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 10:25:16.051  INFO 656 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 10:26:18.509  INFO 656 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/blog/36, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.blog, args=[36, {}])
+2020-08-12 10:26:18.526  INFO 656 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : result:blog
+2020-08-12 10:26:18.673  INFO 656 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/comments/36, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.CommentController.commentList, args=[36, {}])
+2020-08-12 10:26:18.686  INFO 656 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : result:blog::commentList
+2020-08-12 10:26:23.021  INFO 656 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/blog/36, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.blog, args=[36, {}])
+2020-08-12 10:26:23.034  INFO 656 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : result:blog
+2020-08-12 10:26:23.307  INFO 656 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/comments/36, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.CommentController.commentList, args=[36, {}])
+2020-08-12 10:26:23.317  INFO 656 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : result:blog::commentList
+2020-08-12 10:27:51.980  INFO 656 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/blog/36, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.blog, args=[36, {}])
+2020-08-12 10:27:51.996  INFO 656 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : result:blog
+2020-08-12 10:27:52.249  INFO 656 --- [http-nio-80-exec-2] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 10:27:52.265  INFO 656 --- [http-nio-80-exec-2] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 10:27:52.440  INFO 656 --- [http-nio-80-exec-10] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/comments/36, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.CommentController.commentList, args=[36, {}])
+2020-08-12 10:27:52.455  INFO 656 --- [http-nio-80-exec-10] com.blog.aspect.LogAspect                : result:blog::commentList
+2020-08-12 10:28:26.279  INFO 656 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/tags/-1, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.TagsShowController.Tags, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}, -1])
+2020-08-12 10:28:26.309  INFO 656 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : result:tags
+2020-08-12 10:28:26.469  INFO 656 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 10:28:26.474  INFO 656 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 10:28:31.528  INFO 656 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/tags/3, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.TagsShowController.Tags, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}, 3])
+2020-08-12 10:28:31.544  INFO 656 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : result:tags
+2020-08-12 10:28:31.703  INFO 656 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 10:28:31.711  INFO 656 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 10:28:34.721  INFO 656 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/archives, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.ArchivesController.archives, args=[{}])
+2020-08-12 10:28:34.739  INFO 656 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : result:archives
+2020-08-12 10:28:34.893  INFO 656 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 10:28:34.901  INFO 656 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 10:28:42.698  INFO 656 --- [http-nio-80-exec-3] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/about/me, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.AboutController.about, args=[])
+2020-08-12 10:28:42.701  INFO 656 --- [http-nio-80-exec-3] com.blog.aspect.LogAspect                : result:aboutme
+2020-08-12 10:28:42.852  INFO 656 --- [http-nio-80-exec-3] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 10:28:42.857  INFO 656 --- [http-nio-80-exec-3] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 10:29:00.578  INFO 656 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.index, args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}])
+2020-08-12 10:29:00.591  INFO 656 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : result:index
+2020-08-12 10:29:00.792  INFO 656 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 10:29:00.796  INFO 656 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 10:31:00.469  INFO 656 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/types/-1, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.TypeShowController.types, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}, -1])
+2020-08-12 10:31:00.478  INFO 656 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : result:types
+2020-08-12 10:31:00.628  INFO 656 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 10:31:00.632  INFO 656 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 10:31:06.267  INFO 656 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/about/me, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.AboutController.about, args=[])
+2020-08-12 10:31:06.267  INFO 656 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : result:aboutme
+2020-08-12 10:31:06.413  INFO 656 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 10:31:06.417  INFO 656 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 10:31:10.467  INFO 656 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/archives, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.ArchivesController.archives, args=[{}])
+2020-08-12 10:31:10.479  INFO 656 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : result:archives
+2020-08-12 10:31:10.614  INFO 656 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 10:31:10.621  INFO 656 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 10:31:11.393  INFO 656 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/tags/-1, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.TagsShowController.Tags, args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}, -1])
+2020-08-12 10:31:11.410  INFO 656 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : result:tags
+2020-08-12 10:31:11.572  INFO 656 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 10:31:11.575  INFO 656 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 10:31:22.582  INFO 656 --- [http-nio-80-exec-3] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/supper, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.admin.LoginController.loginPage, args=[])
+2020-08-12 10:31:22.584  INFO 656 --- [http-nio-80-exec-3] com.blog.aspect.LogAspect                : result:admin/login
+2020-08-12 10:31:28.908  INFO 656 --- [http-nio-80-exec-2] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/supper/login, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.admin.LoginController.login, args=[admin, 1212, org.apache.catalina.session.StandardSessionFacade@6fc09d44, {}])
+2020-08-12 10:31:28.915  INFO 656 --- [http-nio-80-exec-2] com.blog.aspect.LogAspect                : result:admin/index
+2020-08-12 10:31:29.051  INFO 656 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/super/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newSuperBlogs, args=[{}])
+2020-08-12 10:31:29.055  INFO 656 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : result:admin/admin_fragments::newblogList
+2020-08-12 10:31:36.426  INFO 656 --- [http-nio-80-exec-10] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/supper/types, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.admin.TypeController.types, args=[Page request [number: 0, size 4, sort: id: DESC], {}])
+2020-08-12 10:31:36.437  INFO 656 --- [http-nio-80-exec-10] com.blog.aspect.LogAspect                : result:admin/types
+2020-08-12 10:31:36.517  INFO 656 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/super/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newSuperBlogs, args=[{}])
+2020-08-12 10:31:36.521  INFO 656 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : result:admin/admin_fragments::newblogList
+2020-08-12 10:31:37.987  INFO 656 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/supper/tags, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.admin.TagController.tags, args=[Page request [number: 0, size 4, sort: id: DESC], {}])
+2020-08-12 10:31:37.998  INFO 656 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : result:admin/tags
+2020-08-12 10:31:38.083  INFO 656 --- [http-nio-80-exec-2] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/super/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newSuperBlogs, args=[{}])
+2020-08-12 10:31:38.086  INFO 656 --- [http-nio-80-exec-2] com.blog.aspect.LogAspect                : result:admin/admin_fragments::newblogList
+2020-08-12 10:31:39.484  INFO 656 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/supper/blogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.admin.BlogController.blog, args=[Page request [number: 0, size 2, sort: updateTime: DESC], BlogQuery(title=null, typeId=null, recommend=null), {blogQuery=BlogQuery(title=null, typeId=null, recommend=null), org.springframework.validation.BindingResult.blogQuery=org.springframework.validation.BeanPropertyBindingResult: 0 errors}])
+2020-08-12 10:31:39.500  INFO 656 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : result:admin/blogs
+2020-08-12 10:31:39.635  INFO 656 --- [http-nio-80-exec-10] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/super/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newSuperBlogs, args=[{}])
+2020-08-12 10:31:39.639  INFO 656 --- [http-nio-80-exec-10] com.blog.aspect.LogAspect                : result:admin/admin_fragments::newblogList
+2020-08-12 10:31:43.491  INFO 656 --- [http-nio-80-exec-6] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/supper/blogs/44/input, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.admin.BlogController.editInput, args=[44, {}])
+2020-08-12 10:31:43.502  INFO 656 --- [http-nio-80-exec-6] com.blog.aspect.LogAspect                : result:admin/blogs-input
+2020-08-12 10:31:43.657  INFO 656 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/super/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newSuperBlogs, args=[{}])
+2020-08-12 10:31:43.660  INFO 656 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : result:admin/admin_fragments::newblogList
+2020-08-12 10:31:59.624  INFO 656 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/supper/blogs/add, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.admin.BlogController.post, args=[Blog(id=44, title=MyBatis常见的面试题总结3, content=## 1、mybatis如何一对一、一对多关联查询？
+```xml
+<mapper namespace="com.lcb.mapping.userMapper">  
+    <!--association  一对一关联查询 -->  
+    <select id="getClass" parameterType="int" resultMap="ClassesResultMap">  
+        select * from class c,teacher t where c.teacher_id=t.t_id and c.c_id=#{id}  
+    </select>  
+ 
+    <resultMap type="com.lcb.user.Classes" id="ClassesResultMap">  
+        <!-- 实体类的字段名和数据表的字段名映射 -->  
+        <id property="id" column="c_id"/>  
+        <result property="name" column="c_name"/>  
+        <association property="teacher" javaType="com.lcb.user.Teacher">  
+            <id property="id" column="t_id"/>  
+            <result property="name" column="t_name"/>  
+        </association>  
+    </resultMap>  
+ 
+ 
+    <!--collection  一对多关联查询 -->  
+    <select id="getClass2" parameterType="int" resultMap="ClassesResultMap2">  
+        select * from class c,teacher t,student s where c.teacher_id=t.t_id and c.c_id=s.class_id and c.c_id=#{id}  
+    </select>  
+ 
+    <resultMap type="com.lcb.user.Classes" id="ClassesResultMap2">  
+        <id property="id" column="c_id"/>  
+        <result property="name" column="c_name"/>  
+        <association property="teacher" javaType="com.lcb.user.Teacher">  
+            <id property="id" column="t_id"/>  
+            <result property="name" column="t_name"/>  
+        </association>  
+ 
+        <collection property="student" ofType="com.lcb.user.Student">  
+            <id property="id" column="s_id"/>  
+            <result property="name" column="s_name"/>  
+        </collection>  
+    </resultMap>  
+</mapper>
+```
+
+------
+## 2、mybatis实现一对一有几种方式？具体是怎么操作的？
+- **有联合查询和嵌套查询，联合查询是几个表联合查询，只查询一次，通过在resultMap里面配置association节点配置一对一的类就可以完成**
+
+- **嵌套查询是先查一个表，根据这个表里面的结果的外键ID再去另外一个表里面查询数据，也是通过association配置，但另外一个表的查询通过select属性配置**
+
+-------
+## 3、mybatis实现一对多有几种方式，具体是怎么操作的？
+- **有联合查询和嵌套查询。联合查询是几个表联合查询,只查询一次,通过在resultMap里面的collection节点配置一对多的类就可以完成**
+
+- **嵌套查询是先查一个表,根据这个表里面的 结果的外键id,去再另外一个表里面查询数据,也是通过配置collection,但另外一个表的查询通过select节点配置。**
+------
+# 4、使用mybatis的mapper接口调用时有哪些要求？【重点】
+    1、mapper接口中的方法名和mapper.xml文件中定义的每个SQL的ID相同
+
+    2、mapper接口中的方法的输入参数（方法的参数）类型和配置文件中定义的每个SQL的parameterType的类型相同
+
+    3、mapper接口中的方法的输出参数（方法的返回值类型）类型和xml文件中的resultType类型相同
+
+    4、xml文件中的namespace就是mapper接口的全限定名
+
+------
+## 5、mapper编写有哪些方式？
+```xml
+第一种：接口实现类继承SqlSessionDaoSupport：使用此种方法需要编写mapper接口，mapper接口实现类、mapper.xml文件。
+（1）在sqlMapConfig.xml中配置mapper.xml的位置
+<mappers>
+    <mapper resource="mapper.xml文件的地址" />
+    <mapper resource="mapper.xml文件的地址" />
+</mappers>
+（2）定义mapper接口
+（3）实现类集成SqlSessionDaoSupport
+mapper方法中可以this.getSqlSession()进行数据增删改查。
+（4）spring 配置
+<bean id=" " class="mapper接口的实现">
+    <property name="sqlSessionFactory" ref="sqlSessionFactory"></property>
+</bean>
+
+ 
+第二种：使用org.mybatis.spring.mapper.MapperFactoryBean：
+（1）在sqlMapConfig.xml中配置mapper.xml的位置，如果mapper.xml和mappre接口的名称相同且在同一个目录，这里可以不用配置
+<mappers>
+    <mapper resource="mapper.xml文件的地址" />
+    <mapper resource="mapper.xml文件的地址" />
+</mappers>
+（2）定义mapper接口：
+①mapper.xml中的namespace为mapper接口的地址
+②mapper接口中的方法名和mapper.xml中的定义的statement的id保持一致
+③Spring中定义
+<bean id="" class="org.mybatis.spring.mapper.MapperFactoryBean">
+    <property name="mapperInterface"   value="mapper接口地址" /> 
+    <property name="sqlSessionFactory" ref="sqlSessionFactory" /> 
+</bean>
+
+
+第三种：使用mapper扫描器：
+（1）mapper.xml文件编写：
+mapper.xml中的namespace为mapper接口的地址；
+mapper接口中的方法名和mapper.xml中的定义的statement的id保持一致；
+如果将mapper.xml和mapper接口的名称保持一致则不用在sqlMapConfig.xml中进行配置。 
+（2）定义mapper接口：
+注意mapper.xml的文件名和mapper的接口名称保持一致，且放在同一个目录
+（3）配置mapper扫描器：
+<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+    <property name="basePackage" value="mapper接口包地址"></property>
+    <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/> 
+</bean>
+（4）使用扫描器后从spring容器中获取mapper的实现对象。
+```, firstPicture=https://picsum.photos/id/100/800/450, flag=原创, views=null, appreciation=null, tagids=41, shareStatement=true, commentTabled=true, published=true, recommend=true, createTime=null, updateTime=null, type=Type(id=26, name=null, blogs=[]), description=收集面试中常问的mybatis面试题，预计分为3篇来进行介绍，欢迎各位小伙伴监督和指正.........................., tags=[], user=null, comments=[]), {}, org.apache.catalina.session.StandardSessionFacade@6fc09d44])
+2020-08-12 10:31:59.666  INFO 656 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : result:redirect:/supper/blogs
+2020-08-12 10:31:59.681  INFO 656 --- [http-nio-80-exec-10] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/supper/blogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.admin.BlogController.blog, args=[Page request [number: 0, size 2, sort: updateTime: DESC], BlogQuery(title=null, typeId=null, recommend=null), {message=操作成功, blogQuery=BlogQuery(title=null, typeId=null, recommend=null), org.springframework.validation.BindingResult.blogQuery=org.springframework.validation.BeanPropertyBindingResult: 0 errors}])
+2020-08-12 10:31:59.687  INFO 656 --- [http-nio-80-exec-10] com.blog.aspect.LogAspect                : result:admin/blogs
+2020-08-12 10:31:59.765  INFO 656 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/super/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newSuperBlogs, args=[{}])
+2020-08-12 10:31:59.768  INFO 656 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : result:admin/admin_fragments::newblogList
+2020-08-12 10:32:03.863  INFO 656 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.index, args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}])
+2020-08-12 10:32:03.875  INFO 656 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : result:index
+2020-08-12 10:32:04.075  INFO 656 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 10:32:04.078  INFO 656 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 10:32:06.271  INFO 656 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/blog/44, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.blog, args=[44, {}])
+2020-08-12 10:32:06.283  INFO 656 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : result:blog
+2020-08-12 10:32:06.346  INFO 656 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 10:32:06.350  INFO 656 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 10:32:06.544  INFO 656 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/comments/44, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.CommentController.commentList, args=[44, {}])
+2020-08-12 10:32:06.545  INFO 656 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : result:blog::commentList
+2020-08-12 10:32:22.417  INFO 656 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/supper/blogs/44/input, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.admin.BlogController.editInput, args=[44, {}])
+2020-08-12 10:32:22.424  INFO 656 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : result:admin/blogs-input
+2020-08-12 10:32:22.504  INFO 656 --- [http-nio-80-exec-10] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/super/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newSuperBlogs, args=[{}])
+2020-08-12 10:32:22.507  INFO 656 --- [http-nio-80-exec-10] com.blog.aspect.LogAspect                : result:admin/admin_fragments::newblogList
+2020-08-12 10:32:35.010  INFO 656 --- [http-nio-80-exec-6] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/supper/blogs/add, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.admin.BlogController.post, args=[Blog(id=44, title=MyBatis常见的面试题总结3, content=## 1、mybatis如何一对一、一对多关联查询？
+```xml
+<mapper namespace="com.lcb.mapping.userMapper">  
+    <!--association  一对一关联查询 -->  
+    <select id="getClass" parameterType="int" resultMap="ClassesResultMap">  
+        select * from class c,teacher t where c.teacher_id=t.t_id and c.c_id=#{id}  
+    </select>  
+ 
+    <resultMap type="com.lcb.user.Classes" id="ClassesResultMap">  
+        <!-- 实体类的字段名和数据表的字段名映射 -->  
+        <id property="id" column="c_id"/>  
+        <result property="name" column="c_name"/>  
+        <association property="teacher" javaType="com.lcb.user.Teacher">  
+            <id property="id" column="t_id"/>  
+            <result property="name" column="t_name"/>  
+        </association>  
+    </resultMap>  
+ 
+ 
+    <!--collection  一对多关联查询 -->  
+    <select id="getClass2" parameterType="int" resultMap="ClassesResultMap2">  
+        select * from class c,teacher t,student s where c.teacher_id=t.t_id and c.c_id=s.class_id and c.c_id=#{id}  
+    </select>  
+ 
+    <resultMap type="com.lcb.user.Classes" id="ClassesResultMap2">  
+        <id property="id" column="c_id"/>  
+        <result property="name" column="c_name"/>  
+        <association property="teacher" javaType="com.lcb.user.Teacher">  
+            <id property="id" column="t_id"/>  
+            <result property="name" column="t_name"/>  
+        </association>  
+ 
+        <collection property="student" ofType="com.lcb.user.Student">  
+            <id property="id" column="s_id"/>  
+            <result property="name" column="s_name"/>  
+        </collection>  
+    </resultMap>  
+</mapper>
+```
+
+------
+## 2、mybatis实现一对一有几种方式？具体是怎么操作的？
+- **有联合查询和嵌套查询，联合查询是几个表联合查询，只查询一次，通过在resultMap里面配置association节点配置一对一的类就可以完成**
+
+- **嵌套查询是先查一个表，根据这个表里面的结果的外键ID再去另外一个表里面查询数据，也是通过association配置，但另外一个表的查询通过select属性配置**
+
+-------
+## 3、mybatis实现一对多有几种方式，具体是怎么操作的？
+- **有联合查询和嵌套查询。联合查询是几个表联合查询,只查询一次,通过在resultMap里面的collection节点配置一对多的类就可以完成**
+
+- **嵌套查询是先查一个表,根据这个表里面的 结果的外键id,去再另外一个表里面查询数据,也是通过配置collection,但另外一个表的查询通过select节点配置。**
+------
+# 4、使用mybatis的mapper接口调用时有哪些要求？【重点】
+    1、mapper接口中的方法名和mapper.xml文件中定义的每个SQL的ID相同
+
+    2、mapper接口中的方法的输入参数（方法的参数）类型和配置文件中定义的每个SQL的parameterType的类型相同
+
+    3、mapper接口中的方法的输出参数（方法的返回值类型）类型和xml文件中的resultType类型相同
+
+    4、xml文件中的namespace就是mapper接口的全限定名
+
+------
+## 5、mapper编写有哪些方式？
+```xml
+第一种：接口实现类继承SqlSessionDaoSupport：使用此种方法需要编写mapper接口，mapper接口实现类、mapper.xml文件。
+（1）在sqlMapConfig.xml中配置mapper.xml的位置
+<mappers>
+    <mapper resource="mapper.xml文件的地址" />
+    <mapper resource="mapper.xml文件的地址" />
+</mappers>
+（2）定义mapper接口
+（3）实现类集成SqlSessionDaoSupport
+mapper方法中可以this.getSqlSession()进行数据增删改查。
+（4）spring 配置
+<bean id=" " class="mapper接口的实现">
+    <property name="sqlSessionFactory" ref="sqlSessionFactory"></property>
+</bean>
+
+ 
+第二种：使用org.mybatis.spring.mapper.MapperFactoryBean：
+（1）在sqlMapConfig.xml中配置mapper.xml的位置，如果mapper.xml和mappre接口的名称相同且在同一个目录，这里可以不用配置
+<mappers>
+    <mapper resource="mapper.xml文件的地址" />
+    <mapper resource="mapper.xml文件的地址" />
+</mappers>
+（2）定义mapper接口：
+①mapper.xml中的namespace为mapper接口的地址
+②mapper接口中的方法名和mapper.xml中的定义的statement的id保持一致
+③Spring中定义
+<bean id="" class="org.mybatis.spring.mapper.MapperFactoryBean">
+    <property name="mapperInterface"   value="mapper接口地址" /> 
+    <property name="sqlSessionFactory" ref="sqlSessionFactory" /> 
+</bean>
+
+
+第三种：使用mapper扫描器：
+（1）mapper.xml文件编写：
+mapper.xml中的namespace为mapper接口的地址；
+mapper接口中的方法名和mapper.xml中的定义的statement的id保持一致；
+如果将mapper.xml和mapper接口的名称保持一致则不用在sqlMapConfig.xml中进行配置。 
+（2）定义mapper接口：
+注意mapper.xml的文件名和mapper的接口名称保持一致，且放在同一个目录
+（3）配置mapper扫描器：
+<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+    <property name="basePackage" value="mapper接口包地址"></property>
+    <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/> 
+</bean>
+（4）使用扫描器后从spring容器中获取mapper的实现对象。
+```, firstPicture=https://picsum.photos/id/100/800/450, flag=原创, views=null, appreciation=true, tagids=41, shareStatement=true, commentTabled=null, published=true, recommend=true, createTime=null, updateTime=null, type=Type(id=26, name=null, blogs=[]), description=收集面试中常问的mybatis面试题，预计分为3篇来进行介绍，欢迎各位小伙伴监督和指正.........................., tags=[], user=null, comments=[]), {}, org.apache.catalina.session.StandardSessionFacade@6fc09d44])
+2020-08-12 10:32:35.028  INFO 656 --- [http-nio-80-exec-6] com.blog.aspect.LogAspect                : result:redirect:/supper/blogs
+2020-08-12 10:32:35.032  INFO 656 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/supper/blogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.admin.BlogController.blog, args=[Page request [number: 0, size 2, sort: updateTime: DESC], BlogQuery(title=null, typeId=null, recommend=null), {message=操作成功, blogQuery=BlogQuery(title=null, typeId=null, recommend=null), org.springframework.validation.BindingResult.blogQuery=org.springframework.validation.BeanPropertyBindingResult: 0 errors}])
+2020-08-12 10:32:35.037  INFO 656 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : result:admin/blogs
+2020-08-12 10:32:35.114  INFO 656 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/super/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newSuperBlogs, args=[{}])
+2020-08-12 10:32:35.118  INFO 656 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : result:admin/admin_fragments::newblogList
+2020-08-12 10:32:46.017  INFO 656 --- [http-nio-80-exec-10] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/blog/44, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.blog, args=[44, {}])
+2020-08-12 10:32:46.029  INFO 656 --- [http-nio-80-exec-10] com.blog.aspect.LogAspect                : result:blog
+2020-08-12 10:32:46.132  INFO 656 --- [http-nio-80-exec-3] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 10:32:46.136  INFO 656 --- [http-nio-80-exec-3] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 10:32:46.282  INFO 656 --- [http-nio-80-exec-2] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/comments/44, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.CommentController.commentList, args=[44, {}])
+2020-08-12 10:32:46.284  INFO 656 --- [http-nio-80-exec-2] com.blog.aspect.LogAspect                : result:blog::commentList
+2020-08-12 10:32:54.424  INFO 656 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/supper/blogs/44/input, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.admin.BlogController.editInput, args=[44, {}])
+2020-08-12 10:32:54.431  INFO 656 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : result:admin/blogs-input
+2020-08-12 10:32:54.509  INFO 656 --- [http-nio-80-exec-3] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/super/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newSuperBlogs, args=[{}])
+2020-08-12 10:32:54.511  INFO 656 --- [http-nio-80-exec-3] com.blog.aspect.LogAspect                : result:admin/admin_fragments::newblogList
+2020-08-12 10:33:20.666  INFO 656 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/supper/blogs/add, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.admin.BlogController.post, args=[Blog(id=44, title=MyBatis常见的面试题总结3, content=## 1、mybatis如何一对一、一对多关联查询？
+```xml
+<mapper namespace="com.lcb.mapping.userMapper">  
+    <!--association  一对一关联查询 -->  
+    <select id="getClass" parameterType="int" resultMap="ClassesResultMap">  
+        select * from class c,teacher t where c.teacher_id=t.t_id and c.c_id=#{id}  
+    </select>  
+ 
+    <resultMap type="com.lcb.user.Classes" id="ClassesResultMap">  
+        <!-- 实体类的字段名和数据表的字段名映射 -->  
+        <id property="id" column="c_id"/>  
+        <result property="name" column="c_name"/>  
+        <association property="teacher" javaType="com.lcb.user.Teacher">  
+            <id property="id" column="t_id"/>  
+            <result property="name" column="t_name"/>  
+        </association>  
+    </resultMap>  
+ 
+ 
+    <!--collection  一对多关联查询 -->  
+    <select id="getClass2" parameterType="int" resultMap="ClassesResultMap2">  
+        select * from class c,teacher t,student s where c.teacher_id=t.t_id and c.c_id=s.class_id and c.c_id=#{id}  
+    </select>  
+ 
+    <resultMap type="com.lcb.user.Classes" id="ClassesResultMap2">  
+        <id property="id" column="c_id"/>  
+        <result property="name" column="c_name"/>  
+        <association property="teacher" javaType="com.lcb.user.Teacher">  
+            <id property="id" column="t_id"/>  
+            <result property="name" column="t_name"/>  
+        </association>  
+ 
+        <collection property="student" ofType="com.lcb.user.Student">  
+            <id property="id" column="s_id"/>  
+            <result property="name" column="s_name"/>  
+        </collection>  
+    </resultMap>  
+</mapper>
+```
+
+------
+## 2、mybatis实现一对一有几种方式？具体是怎么操作的？
+- **有联合查询和嵌套查询，联合查询是几个表联合查询，只查询一次，通过在resultMap里面配置association节点配置一对一的类就可以完成**
+
+- **嵌套查询是先查一个表，根据这个表里面的结果的外键ID再去另外一个表里面查询数据，也是通过association配置，但另外一个表的查询通过select属性配置**
+
+-------
+## 3、mybatis实现一对多有几种方式，具体是怎么操作的？
+- **有联合查询和嵌套查询。联合查询是几个表联合查询,只查询一次,通过在resultMap里面的collection节点配置一对多的类就可以完成**
+
+- **嵌套查询是先查一个表,根据这个表里面的 结果的外键id,去再另外一个表里面查询数据,也是通过配置collection,但另外一个表的查询通过select节点配置。**
+------
+# 4、使用mybatis的mapper接口调用时有哪些要求？【重点】
+    1、mapper接口中的方法名和mapper.xml文件中定义的每个SQL的ID相同
+
+    2、mapper接口中的方法的输入参数（方法的参数）类型和配置文件中定义的每个SQL的parameterType的类型相同
+
+    3、mapper接口中的方法的输出参数（方法的返回值类型）类型和xml文件中的resultType类型相同
+
+    4、xml文件中的namespace就是mapper接口的全限定名
+
+------
+## 5、mapper编写有哪些方式？
+```xml
+第一种：接口实现类继承SqlSessionDaoSupport：使用此种方法需要编写mapper接口，mapper接口实现类、mapper.xml文件。
+（1）在sqlMapConfig.xml中配置mapper.xml的位置
+<mappers>
+    <mapper resource="mapper.xml文件的地址" />
+    <mapper resource="mapper.xml文件的地址" />
+</mappers>
+（2）定义mapper接口
+（3）实现类集成SqlSessionDaoSupport
+mapper方法中可以this.getSqlSession()进行数据增删改查。
+（4）spring 配置
+<bean id=" " class="mapper接口的实现">
+    <property name="sqlSessionFactory" ref="sqlSessionFactory"></property>
+</bean>
+
+ 
+第二种：使用org.mybatis.spring.mapper.MapperFactoryBean：
+（1）在sqlMapConfig.xml中配置mapper.xml的位置，如果mapper.xml和mappre接口的名称相同且在同一个目录，这里可以不用配置
+<mappers>
+    <mapper resource="mapper.xml文件的地址" />
+    <mapper resource="mapper.xml文件的地址" />
+</mappers>
+（2）定义mapper接口：
+①mapper.xml中的namespace为mapper接口的地址
+②mapper接口中的方法名和mapper.xml中的定义的statement的id保持一致
+③Spring中定义
+<bean id="" class="org.mybatis.spring.mapper.MapperFactoryBean">
+    <property name="mapperInterface"   value="mapper接口地址" /> 
+    <property name="sqlSessionFactory" ref="sqlSessionFactory" /> 
+</bean>
+
+
+第三种：使用mapper扫描器：
+（1）mapper.xml文件编写：
+mapper.xml中的namespace为mapper接口的地址；
+mapper接口中的方法名和mapper.xml中的定义的statement的id保持一致；
+如果将mapper.xml和mapper接口的名称保持一致则不用在sqlMapConfig.xml中进行配置。 
+（2）定义mapper接口：
+注意mapper.xml的文件名和mapper的接口名称保持一致，且放在同一个目录
+（3）配置mapper扫描器：
+<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+    <property name="basePackage" value="mapper接口包地址"></property>
+    <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/> 
+</bean>
+（4）使用扫描器后从spring容器中获取mapper的实现对象。
+```, firstPicture=https://picsum.photos/id/100/800/450, flag=原创, views=null, appreciation=true, tagids=41, shareStatement=true, commentTabled=null, published=false, recommend=true, createTime=null, updateTime=null, type=Type(id=26, name=null, blogs=[]), description=收集面试中常问的mybatis面试题，预计分为3篇来进行介绍，欢迎各位小伙伴监督和指正.........................., tags=[], user=null, comments=[]), {}, org.apache.catalina.session.StandardSessionFacade@6fc09d44])
+2020-08-12 10:33:20.688  INFO 656 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : result:redirect:/supper/blogs
+2020-08-12 10:33:20.692  INFO 656 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/supper/blogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.admin.BlogController.blog, args=[Page request [number: 0, size 2, sort: updateTime: DESC], BlogQuery(title=null, typeId=null, recommend=null), {message=操作成功, blogQuery=BlogQuery(title=null, typeId=null, recommend=null), org.springframework.validation.BindingResult.blogQuery=org.springframework.validation.BeanPropertyBindingResult: 0 errors}])
+2020-08-12 10:33:20.703  INFO 656 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : result:admin/blogs
+2020-08-12 10:33:20.795  INFO 656 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/super/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newSuperBlogs, args=[{}])
+2020-08-12 10:33:20.799  INFO 656 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : result:admin/admin_fragments::newblogList
+2020-08-12 10:33:26.952  INFO 656 --- [http-nio-80-exec-3] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/blog/44, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.blog, args=[44, {}])
+2020-08-12 10:33:26.966  INFO 656 --- [http-nio-80-exec-3] com.blog.aspect.LogAspect                : result:blog
+2020-08-12 10:33:27.062  INFO 656 --- [http-nio-80-exec-6] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 10:33:27.066  INFO 656 --- [http-nio-80-exec-6] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 10:33:27.215  INFO 656 --- [http-nio-80-exec-2] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/comments/44, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.CommentController.commentList, args=[44, {}])
+2020-08-12 10:33:27.216  INFO 656 --- [http-nio-80-exec-2] com.blog.aspect.LogAspect                : result:blog::commentList
+2020-08-12 10:34:34.733  INFO 656 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/supper/blogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.admin.BlogController.blog, args=[Page request [number: 0, size 2, sort: updateTime: DESC], BlogQuery(title=null, typeId=null, recommend=null), {blogQuery=BlogQuery(title=null, typeId=null, recommend=null), org.springframework.validation.BindingResult.blogQuery=org.springframework.validation.BeanPropertyBindingResult: 0 errors}])
+2020-08-12 10:34:34.747  INFO 656 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : result:admin/blogs
+2020-08-12 10:34:35.008  INFO 656 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/super/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newSuperBlogs, args=[{}])
+2020-08-12 10:34:35.013  INFO 656 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : result:admin/admin_fragments::newblogList
+2020-08-12 10:34:36.267  INFO 656 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/supper/blogs/44/input, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.admin.BlogController.editInput, args=[44, {}])
+2020-08-12 10:34:36.276  INFO 656 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : result:admin/blogs-input
+2020-08-12 10:34:36.352  INFO 656 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/super/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newSuperBlogs, args=[{}])
+2020-08-12 10:34:36.355  INFO 656 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : result:admin/admin_fragments::newblogList
+2020-08-12 10:34:42.784  INFO 656 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/blog/44, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.blog, args=[44, {}])
+2020-08-12 10:34:42.809  INFO 656 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : result:blog
+2020-08-12 10:34:42.914  INFO 656 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 10:34:42.919  INFO 656 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 10:39:01.688  INFO 656 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/supper/blogs/add, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.admin.BlogController.post, args=[Blog(id=44, title=MyBatis常见的面试题总结3, content=## 1、mybatis如何一对一、一对多关联查询？
+```xml
+<mapper namespace="com.lcb.mapping.userMapper">  
+    <!--association  一对一关联查询 -->  
+    <select id="getClass" parameterType="int" resultMap="ClassesResultMap">  
+        select * from class c,teacher t where c.teacher_id=t.t_id and c.c_id=#{id}  
+    </select>  
+ 
+    <resultMap type="com.lcb.user.Classes" id="ClassesResultMap">  
+        <!-- 实体类的字段名和数据表的字段名映射 -->  
+        <id property="id" column="c_id"/>  
+        <result property="name" column="c_name"/>  
+        <association property="teacher" javaType="com.lcb.user.Teacher">  
+            <id property="id" column="t_id"/>  
+            <result property="name" column="t_name"/>  
+        </association>  
+    </resultMap>  
+ 
+ 
+    <!--collection  一对多关联查询 -->  
+    <select id="getClass2" parameterType="int" resultMap="ClassesResultMap2">  
+        select * from class c,teacher t,student s where c.teacher_id=t.t_id and c.c_id=s.class_id and c.c_id=#{id}  
+    </select>  
+ 
+    <resultMap type="com.lcb.user.Classes" id="ClassesResultMap2">  
+        <id property="id" column="c_id"/>  
+        <result property="name" column="c_name"/>  
+        <association property="teacher" javaType="com.lcb.user.Teacher">  
+            <id property="id" column="t_id"/>  
+            <result property="name" column="t_name"/>  
+        </association>  
+ 
+        <collection property="student" ofType="com.lcb.user.Student">  
+            <id property="id" column="s_id"/>  
+            <result property="name" column="s_name"/>  
+        </collection>  
+    </resultMap>  
+</mapper>
+```
+
+------
+## 2、mybatis实现一对一有几种方式？具体是怎么操作的？
+- **有联合查询和嵌套查询，联合查询是几个表联合查询，只查询一次，通过在resultMap里面配置association节点配置一对一的类就可以完成**
+
+- **嵌套查询是先查一个表，根据这个表里面的结果的外键ID再去另外一个表里面查询数据，也是通过association配置，但另外一个表的查询通过select属性配置**
+
+-------
+## 3、mybatis实现一对多有几种方式，具体是怎么操作的？
+- **有联合查询和嵌套查询。联合查询是几个表联合查询,只查询一次,通过在resultMap里面的collection节点配置一对多的类就可以完成**
+
+- **嵌套查询是先查一个表,根据这个表里面的 结果的外键id,去再另外一个表里面查询数据,也是通过配置collection,但另外一个表的查询通过select节点配置。**
+------
+# 4、使用mybatis的mapper接口调用时有哪些要求？【重点】
+    1、mapper接口中的方法名和mapper.xml文件中定义的每个SQL的ID相同
+
+    2、mapper接口中的方法的输入参数（方法的参数）类型和配置文件中定义的每个SQL的parameterType的类型相同
+
+    3、mapper接口中的方法的输出参数（方法的返回值类型）类型和xml文件中的resultType类型相同
+
+    4、xml文件中的namespace就是mapper接口的全限定名
+
+------
+## 5、mapper编写有哪些方式？
+```xml
+第一种：接口实现类继承SqlSessionDaoSupport：使用此种方法需要编写mapper接口，mapper接口实现类、mapper.xml文件。
+（1）在sqlMapConfig.xml中配置mapper.xml的位置
+<mappers>
+    <mapper resource="mapper.xml文件的地址" />
+    <mapper resource="mapper.xml文件的地址" />
+</mappers>
+（2）定义mapper接口
+（3）实现类集成SqlSessionDaoSupport
+mapper方法中可以this.getSqlSession()进行数据增删改查。
+（4）spring 配置
+<bean id=" " class="mapper接口的实现">
+    <property name="sqlSessionFactory" ref="sqlSessionFactory"></property>
+</bean>
+
+ 
+第二种：使用org.mybatis.spring.mapper.MapperFactoryBean：
+（1）在sqlMapConfig.xml中配置mapper.xml的位置，如果mapper.xml和mappre接口的名称相同且在同一个目录，这里可以不用配置
+<mappers>
+    <mapper resource="mapper.xml文件的地址" />
+    <mapper resource="mapper.xml文件的地址" />
+</mappers>
+（2）定义mapper接口：
+①mapper.xml中的namespace为mapper接口的地址
+②mapper接口中的方法名和mapper.xml中的定义的statement的id保持一致
+③Spring中定义
+<bean id="" class="org.mybatis.spring.mapper.MapperFactoryBean">
+    <property name="mapperInterface"   value="mapper接口地址" /> 
+    <property name="sqlSessionFactory" ref="sqlSessionFactory" /> 
+</bean>
+
+
+第三种：使用mapper扫描器：
+（1）mapper.xml文件编写：
+mapper.xml中的namespace为mapper接口的地址；
+mapper接口中的方法名和mapper.xml中的定义的statement的id保持一致；
+如果将mapper.xml和mapper接口的名称保持一致则不用在sqlMapConfig.xml中进行配置。 
+（2）定义mapper接口：
+注意mapper.xml的文件名和mapper的接口名称保持一致，且放在同一个目录
+（3）配置mapper扫描器：
+<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+    <property name="basePackage" value="mapper接口包地址"></property>
+    <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/> 
+</bean>
+（4）使用扫描器后从spring容器中获取mapper的实现对象。
+```, firstPicture=https://picsum.photos/id/100/800/450, flag=原创, views=null, appreciation=true, tagids=41, shareStatement=true, commentTabled=true, published=true, recommend=true, createTime=null, updateTime=null, type=Type(id=26, name=null, blogs=[]), description=收集面试中常问的mybatis面试题，预计分为3篇来进行介绍，欢迎各位小伙伴监督和指正.........................., tags=[], user=null, comments=[]), {}, org.apache.catalina.session.StandardSessionFacade@6fc09d44])
+2020-08-12 10:39:01.704  INFO 656 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : result:redirect:/supper/blogs
+2020-08-12 10:39:01.713  INFO 656 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/supper/blogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.admin.BlogController.blog, args=[Page request [number: 0, size 2, sort: updateTime: DESC], BlogQuery(title=null, typeId=null, recommend=null), {message=操作成功, blogQuery=BlogQuery(title=null, typeId=null, recommend=null), org.springframework.validation.BindingResult.blogQuery=org.springframework.validation.BeanPropertyBindingResult: 0 errors}])
+2020-08-12 10:39:01.718  INFO 656 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : result:admin/blogs
+2020-08-12 10:39:01.812  INFO 656 --- [http-nio-80-exec-6] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/super/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newSuperBlogs, args=[{}])
+2020-08-12 10:39:01.814  INFO 656 --- [http-nio-80-exec-6] com.blog.aspect.LogAspect                : result:admin/admin_fragments::newblogList
+2020-08-12 10:40:00.102  INFO 656 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/blog/44, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.blog, args=[44, {}])
+2020-08-12 10:40:00.113  INFO 656 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : result:blog
+2020-08-12 10:40:00.196  INFO 656 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 10:40:00.200  INFO 656 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 10:40:00.352  INFO 656 --- [http-nio-80-exec-10] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/comments/44, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.CommentController.commentList, args=[44, {}])
+2020-08-12 10:40:00.354  INFO 656 --- [http-nio-80-exec-10] com.blog.aspect.LogAspect                : result:blog::commentList
+2020-08-12 10:40:06.416  INFO 656 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/supper/blogs/44/input, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.admin.BlogController.editInput, args=[44, {}])
+2020-08-12 10:40:06.424  INFO 656 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : result:admin/blogs-input
+2020-08-12 10:40:06.566  INFO 656 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/super/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newSuperBlogs, args=[{}])
+2020-08-12 10:40:06.570  INFO 656 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : result:admin/admin_fragments::newblogList
+2020-08-12 10:40:16.652  INFO 656 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/supper/blogs/add, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.admin.BlogController.post, args=[Blog(id=44, title=MyBatis常见的面试题总结3, content=## 1、mybatis如何一对一、一对多关联查询？
+```xml
+<mapper namespace="com.lcb.mapping.userMapper">  
+    <!--association  一对一关联查询 -->  
+    <select id="getClass" parameterType="int" resultMap="ClassesResultMap">  
+        select * from class c,teacher t where c.teacher_id=t.t_id and c.c_id=#{id}  
+    </select>  
+ 
+    <resultMap type="com.lcb.user.Classes" id="ClassesResultMap">  
+        <!-- 实体类的字段名和数据表的字段名映射 -->  
+        <id property="id" column="c_id"/>  
+        <result property="name" column="c_name"/>  
+        <association property="teacher" javaType="com.lcb.user.Teacher">  
+            <id property="id" column="t_id"/>  
+            <result property="name" column="t_name"/>  
+        </association>  
+    </resultMap>  
+ 
+ 
+    <!--collection  一对多关联查询 -->  
+    <select id="getClass2" parameterType="int" resultMap="ClassesResultMap2">  
+        select * from class c,teacher t,student s where c.teacher_id=t.t_id and c.c_id=s.class_id and c.c_id=#{id}  
+    </select>  
+ 
+    <resultMap type="com.lcb.user.Classes" id="ClassesResultMap2">  
+        <id property="id" column="c_id"/>  
+        <result property="name" column="c_name"/>  
+        <association property="teacher" javaType="com.lcb.user.Teacher">  
+            <id property="id" column="t_id"/>  
+            <result property="name" column="t_name"/>  
+        </association>  
+ 
+        <collection property="student" ofType="com.lcb.user.Student">  
+            <id property="id" column="s_id"/>  
+            <result property="name" column="s_name"/>  
+        </collection>  
+    </resultMap>  
+</mapper>
+```
+
+------
+## 2、mybatis实现一对一有几种方式？具体是怎么操作的？
+- **有联合查询和嵌套查询，联合查询是几个表联合查询，只查询一次，通过在resultMap里面配置association节点配置一对一的类就可以完成**
+
+- **嵌套查询是先查一个表，根据这个表里面的结果的外键ID再去另外一个表里面查询数据，也是通过association配置，但另外一个表的查询通过select属性配置**
+
+-------
+## 3、mybatis实现一对多有几种方式，具体是怎么操作的？
+- **有联合查询和嵌套查询。联合查询是几个表联合查询,只查询一次,通过在resultMap里面的collection节点配置一对多的类就可以完成**
+
+- **嵌套查询是先查一个表,根据这个表里面的 结果的外键id,去再另外一个表里面查询数据,也是通过配置collection,但另外一个表的查询通过select节点配置。**
+------
+# 4、使用mybatis的mapper接口调用时有哪些要求？【重点】
+    1、mapper接口中的方法名和mapper.xml文件中定义的每个SQL的ID相同
+
+    2、mapper接口中的方法的输入参数（方法的参数）类型和配置文件中定义的每个SQL的parameterType的类型相同
+
+    3、mapper接口中的方法的输出参数（方法的返回值类型）类型和xml文件中的resultType类型相同
+
+    4、xml文件中的namespace就是mapper接口的全限定名
+
+------
+## 5、mapper编写有哪些方式？
+```xml
+第一种：接口实现类继承SqlSessionDaoSupport：使用此种方法需要编写mapper接口，mapper接口实现类、mapper.xml文件。
+（1）在sqlMapConfig.xml中配置mapper.xml的位置
+<mappers>
+    <mapper resource="mapper.xml文件的地址" />
+    <mapper resource="mapper.xml文件的地址" />
+</mappers>
+（2）定义mapper接口
+（3）实现类集成SqlSessionDaoSupport
+mapper方法中可以this.getSqlSession()进行数据增删改查。
+（4）spring 配置
+<bean id=" " class="mapper接口的实现">
+    <property name="sqlSessionFactory" ref="sqlSessionFactory"></property>
+</bean>
+
+ 
+第二种：使用org.mybatis.spring.mapper.MapperFactoryBean：
+（1）在sqlMapConfig.xml中配置mapper.xml的位置，如果mapper.xml和mappre接口的名称相同且在同一个目录，这里可以不用配置
+<mappers>
+    <mapper resource="mapper.xml文件的地址" />
+    <mapper resource="mapper.xml文件的地址" />
+</mappers>
+（2）定义mapper接口：
+①mapper.xml中的namespace为mapper接口的地址
+②mapper接口中的方法名和mapper.xml中的定义的statement的id保持一致
+③Spring中定义
+<bean id="" class="org.mybatis.spring.mapper.MapperFactoryBean">
+    <property name="mapperInterface"   value="mapper接口地址" /> 
+    <property name="sqlSessionFactory" ref="sqlSessionFactory" /> 
+</bean>
+
+
+第三种：使用mapper扫描器：
+（1）mapper.xml文件编写：
+mapper.xml中的namespace为mapper接口的地址；
+mapper接口中的方法名和mapper.xml中的定义的statement的id保持一致；
+如果将mapper.xml和mapper接口的名称保持一致则不用在sqlMapConfig.xml中进行配置。 
+（2）定义mapper接口：
+注意mapper.xml的文件名和mapper的接口名称保持一致，且放在同一个目录
+（3）配置mapper扫描器：
+<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+    <property name="basePackage" value="mapper接口包地址"></property>
+    <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/> 
+</bean>
+（4）使用扫描器后从spring容器中获取mapper的实现对象。
+```, firstPicture=https://picsum.photos/id/100/800/450, flag=原创, views=null, appreciation=true, tagids=41, shareStatement=true, commentTabled=null, published=true, recommend=true, createTime=null, updateTime=null, type=Type(id=26, name=null, blogs=[]), description=收集面试中常问的mybatis面试题，预计分为3篇来进行介绍，欢迎各位小伙伴监督和指正.........................., tags=[], user=null, comments=[]), {}, org.apache.catalina.session.StandardSessionFacade@6fc09d44])
+2020-08-12 10:40:16.668  INFO 656 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : result:redirect:/supper/blogs
+2020-08-12 10:40:16.672  INFO 656 --- [http-nio-80-exec-3] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/supper/blogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.admin.BlogController.blog, args=[Page request [number: 0, size 2, sort: updateTime: DESC], BlogQuery(title=null, typeId=null, recommend=null), {message=操作成功, blogQuery=BlogQuery(title=null, typeId=null, recommend=null), org.springframework.validation.BindingResult.blogQuery=org.springframework.validation.BeanPropertyBindingResult: 0 errors}])
+2020-08-12 10:40:16.676  INFO 656 --- [http-nio-80-exec-3] com.blog.aspect.LogAspect                : result:admin/blogs
+2020-08-12 10:40:16.756  INFO 656 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/super/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newSuperBlogs, args=[{}])
+2020-08-12 10:40:16.759  INFO 656 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : result:admin/admin_fragments::newblogList
+2020-08-12 10:44:03.098  INFO 656 --- [http-nio-80-exec-2] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/supper/blogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.admin.BlogController.blog, args=[Page request [number: 0, size 2, sort: updateTime: DESC], BlogQuery(title=null, typeId=null, recommend=null), {blogQuery=BlogQuery(title=null, typeId=null, recommend=null), org.springframework.validation.BindingResult.blogQuery=org.springframework.validation.BeanPropertyBindingResult: 0 errors}])
+2020-08-12 10:44:03.108  INFO 656 --- [http-nio-80-exec-2] com.blog.aspect.LogAspect                : result:admin/blogs
+2020-08-12 10:44:03.265  INFO 656 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/super/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newSuperBlogs, args=[{}])
+2020-08-12 10:44:03.269  INFO 656 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : result:admin/admin_fragments::newblogList
+2020-08-12 10:44:12.784  INFO 656 --- [http-nio-80-exec-10] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/supper/blogs/44/input, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.admin.BlogController.editInput, args=[44, {}])
+2020-08-12 10:44:12.793  INFO 656 --- [http-nio-80-exec-10] com.blog.aspect.LogAspect                : result:admin/blogs-input
+2020-08-12 10:44:12.869  INFO 656 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/super/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newSuperBlogs, args=[{}])
+2020-08-12 10:44:12.871  INFO 656 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : result:admin/admin_fragments::newblogList
+2020-08-12 10:44:48.287  INFO 656 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/supper/blogs/44/input, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.admin.BlogController.editInput, args=[44, {}])
+2020-08-12 10:44:48.291  INFO 656 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : result:admin/blogs-input
+2020-08-12 10:44:48.422  INFO 656 --- [http-nio-80-exec-2] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/super/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newSuperBlogs, args=[{}])
+2020-08-12 10:44:48.424  INFO 656 --- [http-nio-80-exec-2] com.blog.aspect.LogAspect                : result:admin/admin_fragments::newblogList
+2020-08-12 10:51:58.743  INFO 656 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/supper/blogs/44/input, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.admin.BlogController.editInput, args=[44, {}])
+2020-08-12 10:51:58.748  INFO 656 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : result:admin/blogs-input
+2020-08-12 10:51:58.894  INFO 656 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/super/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newSuperBlogs, args=[{}])
+2020-08-12 10:51:58.898  INFO 656 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : result:admin/admin_fragments::newblogList
+2020-08-12 10:53:11.003  INFO 656 --- [http-nio-80-exec-10] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/supper/blogs/44/input, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.admin.BlogController.editInput, args=[44, {}])
+2020-08-12 10:53:11.009  INFO 656 --- [http-nio-80-exec-10] com.blog.aspect.LogAspect                : result:admin/blogs-input
+2020-08-12 10:53:11.150  INFO 656 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/super/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newSuperBlogs, args=[{}])
+2020-08-12 10:53:11.153  INFO 656 --- [http-nio-80-exec-8] com.blog.aspect.LogAspect                : result:admin/admin_fragments::newblogList
+2020-08-12 10:56:04.872  INFO 656 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/supper/blogs/44/input, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.admin.BlogController.editInput, args=[44, {}])
+2020-08-12 10:56:04.881  INFO 656 --- [http-nio-80-exec-9] com.blog.aspect.LogAspect                : result:admin/blogs-input
+2020-08-12 10:56:05.014  INFO 656 --- [http-nio-80-exec-6] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/super/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newSuperBlogs, args=[{}])
+2020-08-12 10:56:05.018  INFO 656 --- [http-nio-80-exec-6] com.blog.aspect.LogAspect                : result:admin/admin_fragments::newblogList
+2020-08-12 10:56:35.109  INFO 1532 --- [restartedMain] com.blog.BlogApplication                 : Starting BlogApplication on WIN-8PNMLH14NIR with PID 1532 (X:\IDEASpace\blog\target\classes started by Administrator in X:\IDEASpace\blog)
+2020-08-12 10:56:35.111  INFO 1532 --- [restartedMain] com.blog.BlogApplication                 : No active profile set, falling back to default profiles: default
+2020-08-12 10:56:35.153  INFO 1532 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-12 10:56:35.153  INFO 1532 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-12 10:56:35.862  INFO 1532 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-12 10:56:35.928  INFO 1532 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58ms. Found 5 JPA repository interfaces.
+2020-08-12 10:56:36.503  INFO 1532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2020-08-12 10:56:36.510  INFO 1532 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-12 10:56:36.511  INFO 1532 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-08-12 10:56:36.612  INFO 1532 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-12 10:56:36.613  INFO 1532 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1459 ms
+2020-08-12 10:56:36.812  INFO 1532 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-12 10:56:36.845  INFO 1532 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-12 10:56:36.876  INFO 1532 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-08-12 10:56:36.962  WARN 1532 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-12 10:56:36.972  INFO 1532 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-12 10:56:37.047  INFO 1532 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-12 10:56:37.129  INFO 1532 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-12 10:56:37.141  INFO 1532 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-08-12 10:56:37.758  INFO 1532 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-12 10:56:37.763  INFO 1532 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-12 10:56:38.065  INFO 1532 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-12 10:56:38.101  INFO 1532 --- [task-2] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-12 10:56:38.147  WARN 1532 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-08-12 10:56:38.307  INFO 1532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2020-08-12 10:56:38.308  INFO 1532 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-08-12 10:56:38.575  INFO 1532 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-12 10:56:38.745  INFO 1532 --- [restartedMain] com.blog.BlogApplication                 : Started BlogApplication in 3.993 seconds (JVM running for 6.464)
+2020-08-12 10:56:44.321  INFO 1532 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-12 10:56:44.322  INFO 1532 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-12 10:56:44.329  INFO 1532 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-08-12 10:56:44.351  INFO 1532 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.index, args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}])
+2020-08-12 10:56:44.419  WARN 1532 --- [http-nio-80-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-08-12 10:56:44.428  WARN 1532 --- [http-nio-80-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-08-12 10:56:44.442  INFO 1532 --- [http-nio-80-exec-1] com.blog.aspect.LogAspect                : result:index
+2020-08-12 10:56:44.875  INFO 1532 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newBlogs, args=[{}])
+2020-08-12 10:56:44.881  INFO 1532 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : result:_fragments::newblogList
+2020-08-12 10:56:53.094  INFO 1532 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/supper, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.admin.LoginController.loginPage, args=[])
+2020-08-12 10:56:53.098  INFO 1532 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : result:admin/login
+2020-08-12 10:56:56.350  INFO 1532 --- [http-nio-80-exec-2] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/supper/login, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.admin.LoginController.login, args=[admin, 1212, org.apache.catalina.session.StandardSessionFacade@39fec10d, {}])
+2020-08-12 10:56:56.358  INFO 1532 --- [http-nio-80-exec-2] com.blog.aspect.LogAspect                : result:admin/index
+2020-08-12 10:56:56.437  INFO 1532 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/super/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newSuperBlogs, args=[{}])
+2020-08-12 10:56:56.446  INFO 1532 --- [http-nio-80-exec-5] com.blog.aspect.LogAspect                : result:admin/admin_fragments::newblogList
+2020-08-12 10:56:59.295  INFO 1532 --- [http-nio-80-exec-10] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/supper/blogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.admin.BlogController.blog, args=[Page request [number: 0, size 2, sort: updateTime: DESC], BlogQuery(title=null, typeId=null, recommend=null), {blogQuery=BlogQuery(title=null, typeId=null, recommend=null), org.springframework.validation.BindingResult.blogQuery=org.springframework.validation.BeanPropertyBindingResult: 0 errors}])
+2020-08-12 10:56:59.313  INFO 1532 --- [http-nio-80-exec-10] com.blog.aspect.LogAspect                : result:admin/blogs
+2020-08-12 10:56:59.391  INFO 1532 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/super/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newSuperBlogs, args=[{}])
+2020-08-12 10:56:59.395  INFO 1532 --- [http-nio-80-exec-7] com.blog.aspect.LogAspect                : result:admin/admin_fragments::newblogList
+2020-08-12 10:57:01.630  INFO 1532 --- [http-nio-80-exec-3] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/supper/blogs/44/input, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.admin.BlogController.editInput, args=[44, {}])
+2020-08-12 10:57:01.645  INFO 1532 --- [http-nio-80-exec-3] com.blog.aspect.LogAspect                : result:admin/blogs-input
+2020-08-12 10:57:01.776  INFO 1532 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : 对象的值为：LogBean(url=/super/footer/newblogs, ip=0:0:0:0:0:0:0:1, classMethod=com.blog.web.IndexController.newSuperBlogs, args=[{}])
+2020-08-12 10:57:01.779  INFO 1532 --- [http-nio-80-exec-4] com.blog.aspect.LogAspect                : result:admin/admin_fragments::newblogList
