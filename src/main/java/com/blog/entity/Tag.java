@@ -14,6 +14,7 @@ public class Tag {
     @GeneratedValue
     private Integer id;
     private String name;
+
     @ManyToMany(mappedBy = "tags")
     private List<Blog> blogs=new ArrayList<>();
 }

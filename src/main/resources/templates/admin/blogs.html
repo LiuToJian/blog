@@ -167,6 +167,7 @@ $(".message .close").on("click",function () {
 $("#clear-btn").on("click",function () {
     $(".ui.type.dropdown").dropdown("clear");
     $("#title-input").val("");
+    loadData();
 });
     function page(obj) {
         $("[name='page']").val($(obj).data("page"));

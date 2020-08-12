@@ -19,3 +19,5 @@ logging:
     path: log
 server:
   port: 80
+
+comment.avatar: /imgs/headImg.JPG

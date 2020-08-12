@@ -41,8 +41,10 @@ public class Blog {
     /*级联新增*/
     @ManyToMany(cascade = {CascadeType.PERSIST})
     private List<Tag> tags = new ArrayList<>();
+
     @ManyToOne
     private User user;
+
     @OneToMany(mappedBy = "blog")
     private List<Comment> comments=new ArrayList<>();
 

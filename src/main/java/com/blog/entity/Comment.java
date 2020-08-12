@@ -16,13 +16,17 @@ public class Comment {
     private Integer id;
     private String nickname;
     private String email;
+    private String content;
     private String avatar;
     @Temporal(TemporalType.TIMESTAMP)
     private Date createTime;
     @ManyToOne
     private Blog blog;
-    @OneToMany(mappedBy = "replyComment")
-    private List<Comment>  patentComment= new ArrayList<>();
+
+    @OneToMany(mappedBy = "parentComment")
+    private List<Comment> replyComment= new ArrayList<>();
     @ManyToOne
-    private Comment replyComment;
+    private Comment  parentComment;
+
+    private boolean adminComment;
 }
